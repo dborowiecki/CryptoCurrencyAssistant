@@ -696,17 +696,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: com.google.code.findbugs#jsr305;1.3.9 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;1.3.9
-[debug] 	found com.google.code.findbugs#jsr305;1.3.9 in sbt-chain
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-streams_2.12;2.6.15 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-streams_2.12;2.6.15
@@ -1281,14 +1270,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -1840,14 +1821,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
@@ -2409,12 +2382,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -2964,12 +2931,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
@@ -4542,14 +4503,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -5103,14 +5056,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile-internal->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile-internal->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile-internal->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile-internal->compile]
@@ -5666,14 +5611,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -6225,14 +6162,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
@@ -6785,14 +6714,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime-internal->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime-internal->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime-internal->compile]
@@ -7355,20 +7276,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [compile->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [compile->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [compile->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [compile->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -7926,20 +7833,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [runtime->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [runtime->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [runtime->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [runtime->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [runtime->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;3.0.2 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
@@ -10214,14 +10107,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-server_2.12;2.6.15 [docs->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-server_2.12;2.6.15 [docs->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-server_2.12;2.6.15 [docs->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [docs->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [docs->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [docs->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [docs->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [docs->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [docs->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [docs->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [docs->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [docs->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [docs->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [docs->compile]
@@ -10279,831 +10164,186 @@
 [debug] circular dependency found: org.seleniumhq.selenium#htmlunit-driver;2.27->net.sourceforge.htmlunit#htmlunit;2.27->...
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-streams_2.12\2.6.15\srcs\play-streams_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.6.15/play-streams_2.12-2.6.15-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.w3c.css\sac\1.3\srcs\sac-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/w3c/css/sac/1.3/sac-1.3-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.8.11\srcs\jackson-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.11/jackson-core-2.8.11-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.google.guava\guava\22.0\srcs\guava-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/22.0/guava-22.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.6.15/play-streams_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.6.15/play-streams_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/w3c/css/sac/1.3/sac-1.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/w3c/css/sac/1.3/sac-1.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.11/jackson-core-2.8.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.11/jackson-core-2.8.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/22.0/guava-22.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/22.0/guava-22.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/w3c/css/sac/1.3/sac-1.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.6.15/play-streams_2.12-2.6.15-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.11/jackson-core-2.8.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.6.15/play-streams_2.12-2.6.15-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/w3c/css/sac/1.3/sac-1.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-streams_2.12;2.6.15!play-streams_2.12.jar(src) (177ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\ch.qos.logback\logback-core\1.2.3\srcs\logback-core-sources.jar
-[info] 	[SUCCESSFUL ] org.w3c.css#sac;1.3!sac.jar(src) (177ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\net.sourceforge.htmlunit\neko-htmlunit\2.27\srcs\neko-htmlunit-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.27/neko-htmlunit-2.27-sources.jar
-[info] downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.27/neko-htmlunit-2.27-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.27/neko-htmlunit-2.27-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.11/jackson-core-2.8.11-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.11!jackson-core.jar(src) (228ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/22.0/guava-22.0-sources.jar.sha1
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.reflections\reflections\0.9.11\srcs\reflections-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.27/neko-htmlunit-2.27-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.27/neko-htmlunit-2.27-sources.jar
-[info] 	[SUCCESSFUL ] net.sourceforge.htmlunit#neko-htmlunit;2.27!neko-htmlunit.jar(src) (189ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/22.0/guava-22.0-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\net.sourceforge.htmlunit\htmlunit-core-js\2.27\srcs\htmlunit-core-js-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.27/htmlunit-core-js-2.27-sources.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;22.0!guava.jar(src) (360ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar.sha1
-[info] 	[SUCCESSFUL ] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src) (208ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\javax.inject\javax.inject\1\srcs\javax.inject-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.springframework\spring-beans\4.3.11.RELEASE\srcs\spring-beans-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE-sources.jar
-[info] downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.27/htmlunit-core-js-2.27-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.27/htmlunit-core-js-2.27-sources.jar
-[info] downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar
-[info] 	[SUCCESSFUL ] org.reflections#reflections;0.9.11!reflections.jar(src) (162ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\filters-helpers_2.12\2.6.15\srcs\filters-helpers_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.6.15/filters-helpers_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.6.15/filters-helpers_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.6.15/filters-helpers_2.12-2.6.15-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.27/htmlunit-core-js-2.27-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.6.15/filters-helpers_2.12-2.6.15-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar
-[info] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar(src) (198ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play_2.12\2.6.15\srcs\play_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.6.15/play_2.12-2.6.15-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.27/htmlunit-core-js-2.27-sources.jar
-[info] 	[SUCCESSFUL ] net.sourceforge.htmlunit#htmlunit-core-js;2.27!htmlunit-core-js.jar(src) (240ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.6.15/filters-helpers_2.12-2.6.15-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\junit\junit\4.12\srcs\junit-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.12;2.6.15!filters-helpers_2.12.jar(src) (167ms)
-[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.google.j2objc\j2objc-annotations\1.1\srcs\j2objc-annotations-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE-sources.jar
-[info] 	[SUCCESSFUL ] org.springframework#spring-beans;4.3.11.RELEASE!spring-beans.jar(src) (243ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-java_2.12\2.6.15\srcs\play-java_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.12/2.6.15/play-java_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.6.15/play_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.6.15/play_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.12/2.6.15/play-java_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.12/2.6.15/play-java_2.12-2.6.15-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.12/2.6.15/play-java_2.12-2.6.15-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.6.15/play_2.12-2.6.15-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src) (162ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-logback_2.12\2.6.15\srcs\play-logback_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.6.15/play-logback_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] junit#junit;4.12!junit.jar(src) (173ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\xalan\serializer\2.7.2\srcs\serializer-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.12/2.6.15/play-java_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-java_2.12;2.6.15!play-java_2.12.jar(src) (164ms)
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.6.15/play-logback_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.6.15/play-logback_2.12-2.6.15-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.6.15/play_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play_2.12;2.6.15!play_2.12.jar(src) (234ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.jboss.logging\jboss-logging\3.3.0.Final\srcs\jboss-logging-sources.jar
-[info] downloading https://repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.fasterxml\classmate\1.3.1\srcs\classmate-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.6.15/play-logback_2.12-2.6.15-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.6.15/play-logback_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-logback_2.12;2.6.15!play-logback_2.12.jar(src) (162ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\io.jsonwebtoken\jjwt\0.7.0\srcs\jjwt-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml#classmate;1.3.1!classmate.jar(src) (185ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.hibernate\hibernate-validator\5.4.1.Final\srcs\hibernate-validator-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final-sources.jar
-[info] 	[SUCCESSFUL ] org.jboss.logging#jboss-logging;3.3.0.Final!jboss-logging.jar(src) (285ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.scala-lang.modules\scala-java8-compat_2.12\0.8.0\srcs\scala-java8-compat_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar
-[info] 	[SUCCESSFUL ] io.jsonwebtoken#jjwt;0.7.0!jjwt.jar(src) (221ms)
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.scala-lang\scala-library\2.12.4\srcs\scala-library-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final-sources.jar
-[info] 	[SUCCESSFUL ] org.hibernate#hibernate-validator;5.4.1.Final!hibernate-validator.jar(src) (224ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src) (196ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.google.guava\guava\23.0\srcs\guava-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.scala-lang\scala-reflect\2.12.4\srcs\scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar
-[info] 	[SUCCESSFUL ] xalan#serializer;2.7.2!serializer.jar(src) (646ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.hamcrest\hamcrest-core\1.3\srcs\hamcrest-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src) (218ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar.sha1
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-json_2.12\2.6.9\srcs\play-json_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src) (165ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\xml-apis\xml-apis\1.4.01\srcs\xml-apis-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.4!scala-library.jar(src) (533ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.6.9!play-json_2.12.jar(src) (164ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.akka\akka-parsing_2.12\10.0.13\srcs\akka-parsing_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.13/akka-parsing_2.12-10.0.13-sources.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;23.0!guava.jar(src) (434ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.slf4j\jul-to-slf4j\1.7.25\srcs\jul-to-slf4j-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.google.code.findbugs\jsr305\3.0.2\srcs\jsr305-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.13/akka-parsing_2.12-10.0.13-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.13/akka-parsing_2.12-10.0.13-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar.sha1
-[info] 	[SUCCESSFUL ] xml-apis#xml-apis;1.4.01!xml-apis.jar(src) (221ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\xalan\xalan\2.7.2\srcs\xalan-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.13/akka-parsing_2.12-10.0.13-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar
-[info] 	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src) (151ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.13/akka-parsing_2.12-10.0.13-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing_2.12;10.0.13!akka-parsing_2.12.jar(src) (164ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-exceptions\2.6.15\srcs\play-exceptions-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.15/play-exceptions-2.6.15-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar
-[info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src) (179ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.seleniumhq.selenium\selenium-support\3.5.3\srcs\selenium-support-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.15/play-exceptions-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.15/play-exceptions-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-functional_2.12\2.6.9\srcs\play-functional_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.15/play-exceptions-2.6.15-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.15/play-exceptions-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-exceptions;2.6.15!play-exceptions.jar(src) (172ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.apache.commons\commons-lang3\3.6\srcs\commons-lang3-sources.jar
-[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-support;3.5.3!selenium-support.jar(src) (183ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.eclipse.jetty.websocket\websocket-api\9.4.5.v20170502\srcs\websocket-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.5.v20170502/websocket-api-9.4.5.v20170502-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.5.v20170502/websocket-api-9.4.5.v20170502-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.5.v20170502/websocket-api-9.4.5.v20170502-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.6.9!play-functional_2.12.jar(src) (206ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.google.inject\guice\4.1.0\srcs\guice-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.5.v20170502/websocket-api-9.4.5.v20170502-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.5.v20170502/websocket-api-9.4.5.v20170502-sources.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty.websocket#websocket-api;9.4.5.v20170502!websocket-api.jar(src) (161ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.fluentlenium\fluentlenium-core\3.3.0\srcs\fluentlenium-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.3.0/fluentlenium-core-3.3.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src) (207ms)
-[info] downloading https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.3.0/fluentlenium-core-3.3.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.3.0/fluentlenium-core-3.3.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar
-[info] 	[SUCCESSFUL ] xalan#xalan;2.7.2!xalan.jar(src) (493ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.seleniumhq.selenium\selenium-api\3.5.3\srcs\selenium-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.5.3/selenium-api-3.5.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.5.3/selenium-api-3.5.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.5.3/selenium-api-3.5.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.google.inject#guice;4.1.0!guice.jar(src) (182ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe\config\1.3.2\srcs\config-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.3.0/fluentlenium-core-3.3.0-sources.jar.sha1
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.typelevel\macro-compat_2.12\1.1.1\srcs\macro-compat_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.5.3/selenium-api-3.5.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.3.0/fluentlenium-core-3.3.0-sources.jar
-[info] 	[SUCCESSFUL ] org.fluentlenium#fluentlenium-core;3.3.0!fluentlenium-core.jar(src) (177ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.apache.commons\commons-exec\1.3\srcs\commons-exec-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.5.3/selenium-api-3.5.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar.sha1
-[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-api;3.5.3!selenium-api.jar(src) (177ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.google.code.gson\gson\2.8.0\srcs\gson-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar.sha1
-[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.2!config.jar(src) (182ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\twirl-api_2.12\1.3.14\srcs\twirl-api_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.3.14/twirl-api_2.12-1.3.14-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.3.14/twirl-api_2.12-1.3.14-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.3.14/twirl-api_2.12-1.3.14-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src) (216ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.12\1.0.6\srcs\scala-parser-combinators_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-exec;1.3!commons-exec.jar(src) (171ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\xerces\xercesImpl\2.11.0\srcs\xercesImpl-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.3.14/twirl-api_2.12-1.3.14-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0-sources.jar
-[info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.8.0!gson.jar(src) (171ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.scala-sbt\test-interface\1.0\srcs\test-interface-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.3.14/twirl-api_2.12-1.3.14-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.12;1.3.14!twirl-api_2.12.jar(src) (173ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.scala-lang.modules\scala-xml_2.12\1.0.6\srcs\scala-xml_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src) (186ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar.sha1
-[debug] 		tried C:\Users\Damian\.ivy2\local\commons-codec\commons-codec\1.10\srcs\commons-codec-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar.sha1
-[debug] 		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#test-interface;1.0!test-interface.jar(src) (164ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\net.java.dev.jna\jna-platform\4.1.0\srcs\jna-platform-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar
-[info] downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src) (147ms)
-[info] 	[SUCCESSFUL ] xerces#xercesImpl;2.11.0!xercesImpl.jar(src) (267ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\net.sourceforge.htmlunit\htmlunit\2.27\srcs\htmlunit-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.akka\akka-stream_2.12\2.5.11\srcs\akka-stream_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.11/akka-stream_2.12-2.5.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.11/akka-stream_2.12-2.5.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.11/akka-stream_2.12-2.5.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar
-[info] 	[SUCCESSFUL ] commons-codec#commons-codec;1.10!commons-codec.jar(src) (160ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-java-forms_2.12\2.6.15\srcs\play-java-forms_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.12/2.6.15/play-java-forms_2.12-2.6.15-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.11/akka-stream_2.12-2.5.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar
-[info] 	[SUCCESSFUL ] net.java.dev.jna#jna-platform;4.1.0!jna-platform.jar(src) (171ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.eclipse.jetty\jetty-http\9.4.5.v20170502\srcs\jetty-http-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.12/2.6.15/play-java-forms_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.12/2.6.15/play-java-forms_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.11/akka-stream_2.12-2.5.11-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.12;2.5.11!akka-stream_2.12.jar(src) (182ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.codehaus.mojo\animal-sniffer-annotations\1.14\srcs\animal-sniffer-annotations-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.12/2.6.15/play-java-forms_2.12-2.6.15-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.12/2.6.15/play-java-forms_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-java-forms_2.12;2.6.15!play-java-forms_2.12.jar(src) (160ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.slf4j\jcl-over-slf4j\1.7.25\srcs\jcl-over-slf4j-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27-sources.jar
-[info] 	[SUCCESSFUL ] net.sourceforge.htmlunit#htmlunit;2.27!htmlunit.jar(src) (285ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.eclipse.jetty.websocket\websocket-client\9.4.5.v20170502\srcs\websocket-client-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.5.v20170502/websocket-client-9.4.5.v20170502-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502-sources.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;9.4.5.v20170502!jetty-http.jar(src) (179ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.novocode\junit-interface\0.11\srcs\junit-interface-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.5.v20170502/websocket-client-9.4.5.v20170502-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.5.v20170502/websocket-client-9.4.5.v20170502-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar.sha1
-[info] 	[SUCCESSFUL ] org.codehaus.mojo#animal-sniffer-annotations;1.14!animal-sniffer-annotations.jar(src) (229ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.reactivestreams\reactive-streams\1.0.2\srcs\reactive-streams-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.5.v20170502/websocket-client-9.4.5.v20170502-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar.sha1
-[info] 	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.25!jcl-over-slf4j.jar(src) (211ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.springframework\spring-core\4.3.11.RELEASE\srcs\spring-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/springframework/spring-core/4.3.11.RELEASE/spring-core-4.3.11.RELEASE-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.5.v20170502/websocket-client-9.4.5.v20170502-sources.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty.websocket#websocket-client;9.4.5.v20170502!websocket-client.jar(src) (217ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar.sha1
-[debug] 		tried C:\Users\Damian\.ivy2\local\commons-logging\commons-logging\1.2\srcs\commons-logging-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/springframework/spring-core/4.3.11.RELEASE/spring-core-4.3.11.RELEASE-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-core/4.3.11.RELEASE/spring-core-4.3.11.RELEASE-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar
-[info] 	[SUCCESSFUL ] com.novocode#junit-interface;0.11!junit-interface.jar(src) (227ms)
-[info] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.apache.httpcomponents\httpcore\4.4.6\srcs\httpcore-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar
-[info] 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src) (166ms)
-[info] downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\net.jodah\typetools\0.5.0\srcs\typetools-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-core/4.3.11.RELEASE/spring-core-4.3.11.RELEASE-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
-[info] 	[SUCCESSFUL ] commons-logging#commons-logging;1.2!commons-logging.jar(src) (194ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\net.sourceforge.cssparser\cssparser\0.9.23\srcs\cssparser-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.23/cssparser-0.9.23-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/springframework/spring-core/4.3.11.RELEASE/spring-core-4.3.11.RELEASE-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0-sources.jar.sha1
-[info] 	[SUCCESSFUL ] org.springframework#spring-core;4.3.11.RELEASE!spring-core.jar(src) (243ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar.sha1
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.akka\akka-http-core_2.12\10.0.13\srcs\akka-http-core_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.13/akka-http-core_2.12-10.0.13-sources.jar
-[info] downloading https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.23/cssparser-0.9.23-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.23/cssparser-0.9.23-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.13/akka-http-core_2.12-10.0.13-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.13/akka-http-core_2.12-10.0.13-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0-sources.jar
-[info] 	[SUCCESSFUL ] net.jodah#typetools;0.5.0!typetools.jar(src) (200ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\build-link\2.6.15\srcs\build-link-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.15/build-link-2.6.15-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src) (275ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.apache.httpcomponents\httpmime\4.5.3\srcs\httpmime-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.23/cssparser-0.9.23-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.15/build-link-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.15/build-link-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.13/akka-http-core_2.12-10.0.13-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.23/cssparser-0.9.23-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.15/build-link-2.6.15-sources.jar.sha1
-[info] 	[SUCCESSFUL ] net.sourceforge.cssparser#cssparser;0.9.23!cssparser.jar(src) (198ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.seleniumhq.selenium\htmlunit-driver\2.27\srcs\htmlunit-driver-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.27/htmlunit-driver-2.27-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.13/akka-http-core_2.12-10.0.13-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core_2.12;10.0.13!akka-http-core_2.12.jar(src) (204ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.8.11.1\srcs\jackson-databind-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.1/jackson-databind-2.8.11.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.27/htmlunit-driver-2.27-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.27/htmlunit-driver-2.27-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.15/build-link-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#build-link;2.6.15!build-link.jar(src) (161ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-netty-utils\2.6.15\srcs\play-netty-utils-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.6.15/play-netty-utils-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.1/jackson-databind-2.8.11.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.1/jackson-databind-2.8.11.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src) (175ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.seleniumhq.selenium\selenium-remote-driver\3.5.3\srcs\selenium-remote-driver-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.6.15/play-netty-utils-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.6.15/play-netty-utils-2.6.15-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.27/htmlunit-driver-2.27-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.6.15/play-netty-utils-2.6.15-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.27/htmlunit-driver-2.27-sources.jar
-[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#htmlunit-driver;2.27!htmlunit-driver.jar(src) (165ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.seleniumhq.selenium\selenium-firefox-driver\3.5.3\srcs\selenium-firefox-driver-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.5.3/selenium-firefox-driver-3.5.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.1/jackson-databind-2.8.11.1-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.5.3/selenium-firefox-driver-3.5.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.5.3/selenium-firefox-driver-3.5.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.6.15/play-netty-utils-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-utils;2.6.15!play-netty-utils.jar(src) (156ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-guice_2.12\2.6.15\srcs\play-guice_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.6.15/play-guice_2.12-2.6.15-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.1/jackson-databind-2.8.11.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.6.15/play-guice_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.6.15/play-guice_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.11.1!jackson-databind.jar(src) (234ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.5.3/selenium-firefox-driver-3.5.3-sources.jar.sha1
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.akka\akka-actor_2.12\2.5.11\srcs\akka-actor_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.11/akka-actor_2.12-2.5.11-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3-sources.jar
-[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-remote-driver;3.5.3!selenium-remote-driver.jar(src) (188ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\jline\jline\2.14.5\srcs\jline-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.11/akka-actor_2.12-2.5.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.11/akka-actor_2.12-2.5.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.6.15/play-guice_2.12-2.6.15-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.5.3/selenium-firefox-driver-3.5.3-sources.jar
-[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-firefox-driver;3.5.3!selenium-firefox-driver.jar(src) (165ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-test_2.12\2.6.15\srcs\play-test_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.6.15/play-test_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.6.15/play-test_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.6.15/play-test_2.12-2.6.15-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.11/akka-actor_2.12-2.5.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.6.15/play-guice_2.12-2.6.15-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar.sha1
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-guice_2.12;2.6.15!play-guice_2.12.jar(src) (164ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-akka-http-server_2.12\2.6.15\srcs\play-akka-http-server_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.6.15/play-akka-http-server_2.12-2.6.15-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.6.15/play-test_2.12-2.6.15-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.11/akka-actor_2.12-2.5.11-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.14.5!jline.jar(src) (174ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.scala-lang\scala-compiler\2.12.4\srcs\scala-compiler-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.6.15/play-akka-http-server_2.12-2.6.15-sources.jar ...
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.6.15/play-akka-http-server_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.11!akka-actor_2.12.jar(src) (190ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.8.11\srcs\jackson-annotations-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.11/jackson-annotations-2.8.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.11/jackson-annotations-2.8.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.11/jackson-annotations-2.8.11-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.6.15/play-test_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.12;2.6.15!play-test_2.12.jar(src) (161ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.eclipse.jetty\jetty-util\9.4.5.v20170502\srcs\jetty-util-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.6.15/play-akka-http-server_2.12-2.6.15-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.11/jackson-annotations-2.8.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.6.15/play-akka-http-server_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-akka-http-server_2.12;2.6.15!play-akka-http-server_2.12.jar(src) (165ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe\ssl-config-core_2.12\0.2.2\srcs\ssl-config-core_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.11/jackson-annotations-2.8.11-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.11!jackson-annotations.jar(src) (163ms)
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\javax.transaction\jta\1.1\srcs\jta-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502-sources.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;9.4.5.v20170502!jetty-util.jar(src) (173ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.apache.httpcomponents\httpclient\4.5.3\srcs\httpclient-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src) (172ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar
-[info] 	[SUCCESSFUL ] javax.transaction#jta;1.1!jta.jar(src) (179ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\javax.validation\validation-api\1.1.0.Final\srcs\validation-api-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.akka\akka-slf4j_2.12\2.5.11\srcs\akka-slf4j_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.11/akka-slf4j_2.12-2.5.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar.sha1
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src) (388ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.parboiled\parboiled-core\1.1.7\srcs\parboiled-core-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.11/akka-slf4j_2.12-2.5.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.11/akka-slf4j_2.12-2.5.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src) (230ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.eclipse.jetty\jetty-io\9.4.5.v20170502\srcs\jetty-io-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.11/akka-slf4j_2.12-2.5.11-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.11/akka-slf4j_2.12-2.5.11-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.12;2.5.11!akka-slf4j_2.12.jar(src) (181ms)
-[info] 	[SUCCESSFUL ] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src) (182ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.8.11\srcs\jackson-datatype-jdk8-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.11/jackson-datatype-jdk8-2.8.11-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\ch.qos.logback\logback-classic\1.2.3\srcs\logback-classic-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar
-[info] 	[SUCCESSFUL ] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src) (179ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-docs_2.12\2.6.15\srcs\play-docs_2.12-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.11/jackson-datatype-jdk8-2.8.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.11/jackson-datatype-jdk8-2.8.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.6.15/play-docs_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.6.15/play-docs_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.6.15/play-docs_2.12-2.6.15-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502-sources.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;9.4.5.v20170502!jetty-io.jar(src) (175ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.eclipse.jetty\jetty-client\9.4.5.v20170502\srcs\jetty-client-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.11/jackson-datatype-jdk8-2.8.11-sources.jar.sha1
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.5.v20170502/jetty-client-9.4.5.v20170502-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.6.15/play-docs_2.12-2.6.15-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.5.v20170502/jetty-client-9.4.5.v20170502-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.5.v20170502/jetty-client-9.4.5.v20170502-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.11/jackson-datatype-jdk8-2.8.11-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.11!jackson-datatype-jdk8.jar(src) (169ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.google.errorprone\error_prone_annotations\2.0.18\srcs\error_prone_annotations-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.6.15/play-docs_2.12-2.6.15-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.12;2.6.15!play-docs_2.12.jar(src) (166ms)
-[info] 	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src) (182ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-omnidoc_2.12\2.6.15\srcs\play-omnidoc_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.6.15/play-omnidoc_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.8.11\srcs\jackson-datatype-jsr310-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.6.15/play-omnidoc_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.6.15/play-omnidoc_2.12-2.6.15-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.5.v20170502/jetty-client-9.4.5.v20170502-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.6.15/play-omnidoc_2.12-2.6.15-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.5.v20170502/jetty-client-9.4.5.v20170502-sources.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-client;9.4.5.v20170502!jetty-client.jar(src) (218ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.eclipse.jetty.websocket\websocket-common\9.4.5.v20170502\srcs\websocket-common-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.5.v20170502/websocket-common-9.4.5.v20170502-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18-sources.jar
-[info] 	[SUCCESSFUL ] com.google.errorprone#error_prone_annotations;2.0.18!error_prone_annotations.jar(src) (168ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-server_2.12\2.6.15\srcs\play-server_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.6.15/play-server_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.5.v20170502/websocket-common-9.4.5.v20170502-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.5.v20170502/websocket-common-9.4.5.v20170502-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.6.15/play-omnidoc_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.12;2.6.15!play-omnidoc_2.12.jar(src) (161ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.ow2.asm\asm-analysis\5.0.3\srcs\asm-analysis-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.6.15/play-server_2.12-2.6.15-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.6.15/play-server_2.12-2.6.15-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.11!jackson-datatype-jsr310.jar(src) (180ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.5.v20170502/websocket-common-9.4.5.v20170502-sources.jar.sha1
-[debug] 		tried C:\Users\Damian\.ivy2\local\joda-time\joda-time\2.9.9\srcs\joda-time-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.6.15/play-server_2.12-2.6.15-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.5.v20170502/websocket-common-9.4.5.v20170502-sources.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty.websocket#websocket-common;9.4.5.v20170502!websocket-common.jar(src) (176ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\commons-io\commons-io\2.5\srcs\commons-io-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.6.15/play-server_2.12-2.6.15-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.12;2.6.15!play-server_2.12.jar(src) (166ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.springframework\spring-context\4.3.11.RELEASE\srcs\spring-context-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/springframework/spring-context/4.3.11.RELEASE/spring-context-4.3.11.RELEASE-sources.jar
-[info] downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/springframework/spring-context/4.3.11.RELEASE/spring-context-4.3.11.RELEASE-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-context/4.3.11.RELEASE/spring-context-4.3.11.RELEASE-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src) (317ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.ow2.asm\asm\5.0.3\srcs\asm-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-context/4.3.11.RELEASE/spring-context-4.3.11.RELEASE-sources.jar.sha1
-[info] 	[SUCCESSFUL ] commons-io#commons-io;2.5!commons-io.jar(src) (195ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\net.java.dev.jna\jna\4.1.0\srcs\jna-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar
-[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.9!joda-time.jar(src) (301ms)
-[info] downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.slf4j\slf4j-api\1.7.25\srcs\slf4j-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/springframework/spring-context/4.3.11.RELEASE/spring-context-4.3.11.RELEASE-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
-[info] 	[SUCCESSFUL ] org.springframework#spring-context;4.3.11.RELEASE!spring-context.jar(src) (265ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\aopalliance\aopalliance\1.0\srcs\aopalliance-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar
-[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src) (1141ms)
-[info] 	[SUCCESSFUL ] net.java.dev.jna#jna;4.1.0!jna.jar(src) (1196ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\cglib\cglib-nodep\3.2.4\srcs\cglib-nodep-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.akka\akka-protobuf_2.12\2.5.11\srcs\akka-protobuf_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.11/akka-protobuf_2.12-2.5.11-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.11/akka-protobuf_2.12-2.5.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.11/akka-protobuf_2.12-2.5.11-sources.jar
-[info] 	[SUCCESSFUL ] aopalliance#aopalliance;1.0!aopalliance.jar(src) (1155ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.google.inject.extensions\guice-assistedinject\4.1.0\srcs\guice-assistedinject-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.11/akka-protobuf_2.12-2.5.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4-sources.jar
-[info] 	[SUCCESSFUL ] cglib#cglib-nodep;3.2.4!cglib-nodep.jar(src) (447ms)
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.3!asm.jar(src) (1669ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.11/akka-protobuf_2.12-2.5.11-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.12;2.5.11!akka-protobuf_2.12.jar(src) (505ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.1.0!guice-assistedinject.jar(src) (463ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
-[debug] 		tried C:\Users\Damian\.sbt\preloaded\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.atteo.classindex\classindex\3.4\srcs\classindex-sources.jar
-[debug] 		tried file:/C:/Users/Damian/.sbt/preloaded/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-sources.jar
-[warn] 	Detected merged artifact: [FAILED     ] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar(src):  (0ms).
-[warn] ==== local: tried
-[warn]   C:\Users\Damian\.ivy2\local\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
-[warn] ==== public: tried
-[warn] ==== local-preloaded-ivy: tried
-[warn]   C:\Users\Damian\.sbt\preloaded\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
-[warn] ==== local-preloaded: tried
-[warn]   file:/C:/Users/Damian/.sbt/preloaded/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.javassist\javassist\3.21.0-GA\srcs\javassist-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.pegdown\pegdown\1.6.0\srcs\pegdown-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/pegdown/pegdown/1.6.0/pegdown-1.6.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/pegdown/pegdown/1.6.0/pegdown-1.6.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/pegdown/pegdown/1.6.0/pegdown-1.6.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-sources.jar
-[info] 	[SUCCESSFUL ] org.atteo.classindex#classindex;3.4!classindex.jar(src) (475ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/pegdown/pegdown/1.6.0/pegdown-1.6.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar
-[info] 	[SUCCESSFUL ] org.javassist#javassist;3.21.0-GA!javassist.jar(src) (530ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/pegdown/pegdown/1.6.0/pegdown-1.6.0-sources.jar
-[info] 	[SUCCESSFUL ] org.pegdown#pegdown;1.6.0!pegdown.jar(src) (170ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\com.typesafe.play\play-doc_2.12\1.8.1\srcs\play-doc_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/1.8.1/play-doc_2.12-1.8.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/1.8.1/play-doc_2.12-1.8.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/1.8.1/play-doc_2.12-1.8.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/1.8.1/play-doc_2.12-1.8.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/1.8.1/play-doc_2.12-1.8.1-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-doc_2.12;1.8.1!play-doc_2.12.jar(src) (150ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.ow2.asm\asm-tree\5.0.3\srcs\asm-tree-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src) (201ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.ow2.asm\asm-util\5.0.3\srcs\asm-util-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src) (452ms)
-[debug] 		tried C:\Users\Damian\.ivy2\local\org.parboiled\parboiled-java\1.1.7\srcs\parboiled-java-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.7/parboiled-java-1.1.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.7/parboiled-java-1.1.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.7/parboiled-java-1.1.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.7/parboiled-java-1.1.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.7/parboiled-java-1.1.7-sources.jar
-[info] 	[SUCCESSFUL ] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src) (168ms)
-[debug] :: resolution report :: resolve 15402ms :: artifacts dl 9022ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: com.google.code.findbugs#jsr305;1.3.9!jsr305.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.11!jackson-core.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Damian\.ivy2
+[debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.14!animal-sniffer-annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.javassist#javassist;3.21.0-GA!javassist.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-streams_2.12;2.6.15!play-streams_2.12.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Damian\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Damian\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Damian\.ivy2
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Damian\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\Damian\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to C:\Users\Damian\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\Damian\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (125ms)
+[debug] 	default cache: C:\Users\Damian\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (63ms)
+[debug] 	default cache: C:\Users\Damian\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.reflections#reflections;0.9.11!reflections.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.12;2.6.15!filters-helpers_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.12;2.6.15!play-logback_2.12.jar(src)
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.7.0!jjwt.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src)
+[debug] settings loaded (78ms)
+[debug] 	default cache: C:\Users\Damian\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.6.15!play-exceptions.jar(src)
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] net.jodah#typetools;0.5.0!typetools.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.12;2.6.15!play_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.3.0.Final!jboss-logging.jar(src)
+[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.6.15!build-link.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-utils;2.6.15!play-netty-utils.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;23.0!guava.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-guice_2.12;2.6.15!play-guice_2.12.jar(src)
+[debug] settings loaded (94ms)
+[debug] 	default cache: C:\Users\Damian\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-akka-http-server_2.12;2.6.15!play-akka-http-server_2.12.jar(src)
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;22.0!guava.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.5.3!selenium-support.jar(src)
+[debug] 	[NOT REQUIRED] org.springframework#spring-beans;4.3.11.RELEASE!spring-beans.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.11!akka-slf4j_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-api;9.4.5.v20170502!websocket-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-java_2.12;2.6.15!play-java_2.12.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.11!jackson-datatype-jsr310.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml#classmate;1.3.1!classmate.jar(src)
+[debug] 	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;3.3.0!fluentlenium-core.jar(src)
+[debug] 	[NOT REQUIRED] org.hibernate#hibernate-validator;5.4.1.Final!hibernate-validator.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-exec;1.3!commons-exec.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.11!akka-protobuf_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.9!play-json_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar(src)
+[debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.0.13!akka-parsing_2.12.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.27!htmlunit.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.27!neko-htmlunit.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.9!play-functional_2.12.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.27!htmlunit-core-js.jar(src)
+[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
+[debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src)
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
+[debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
+[debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.5.3!selenium-api.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.8.0!gson.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.14!twirl-api_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.1.0!jna-platform.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.5.v20170502!jetty-http.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.11!akka-stream_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.5.v20170502!websocket-client.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-java-forms_2.12;2.6.15!play-java-forms_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.25!jcl-over-slf4j.jar(src)
+[debug] 	[NOT REQUIRED] org.springframework#spring-core;4.3.11.RELEASE!spring-core.jar(src)
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.23!cssparser.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.0.13!akka-http-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#htmlunit-driver;2.27!htmlunit-driver.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.11.1!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;3.5.3!selenium-firefox-driver.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.12;2.6.15!play-test_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.11!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.5.v20170502!jetty-util.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src)
+[debug] 	[NOT REQUIRED] com.google.inject#guice;4.1.0!guice.jar(src)
+[debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;3.5.3!selenium-remote-driver.jar(src)
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.11!jackson-annotations.jar(src)
+[debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-server_2.12;2.6.15!play-server_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.springframework#spring-context;4.3.11.RELEASE!spring-context.jar(src)
+[debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src)
+[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.11!jackson-datatype-jdk8.jar(src)
+[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.1.0!guice-assistedinject.jar(src)
+[debug] 	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.0.18!error_prone_annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.5.v20170502!jetty-io.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.5.v20170502!jetty-client.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-common;9.4.5.v20170502!websocket-common.jar(src)
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.5!commons-io.jar(src)
+[debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.1.0!jna.jar(src)
+[debug] 	[NOT REQUIRED] cglib#cglib-nodep;3.2.4!cglib-nodep.jar(src)
+[debug] 	[NOT REQUIRED] org.atteo.classindex#classindex;3.4!classindex.jar(src)
+[debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.12;2.6.15!play-docs_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-omnidoc_2.12;2.6.15!play-omnidoc_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar(src)
+[debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.6.0!pegdown.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.12;1.8.1!play-doc_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src)
+[debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src)
+[debug] :: resolution report :: resolve 11103ms :: artifacts dl 342ms
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT compile produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-compile.xml
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT runtime produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-runtime.xml
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT test produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-test.xml
@@ -11124,4 +10364,4 @@
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT pom produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-pom.xml
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT scala-tool produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-scala-tool.xml
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT docs produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-docs.xml
-[debug] 	resolve done (15402ms resolve - 9022ms download)
+[debug] 	resolve done (11103ms resolve - 342ms download)

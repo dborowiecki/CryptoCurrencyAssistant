@@ -1,0 +1,2 @@
+[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\controllers\HomeController.java:29:1:  java.util.LinkedList<models.Point> cannot be converted to java.util.Set<models.Point>
+[error]         Set<Point> points = DiagramModel.getAllPoints() ;
