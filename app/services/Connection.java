@@ -26,4 +26,8 @@ public class Connection {
         }
     }
 
+    public int getResponseCode() throws IOException{
+        return connection.getResponseCode();
+    }
+
 }
