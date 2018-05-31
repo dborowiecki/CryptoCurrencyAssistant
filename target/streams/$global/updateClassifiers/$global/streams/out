@@ -369,7 +369,7 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;22.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;22.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;22.0
 [debug] 	found com.google.guava#guava;22.0 in sbt-chain
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->runtime(*)]
@@ -696,6 +696,21 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.google.code.gson#gson;2.8.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.8.0
+[debug] 	found com.google.code.gson#gson;2.8.0 in sbt-chain
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-streams_2.12;2.6.15 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-streams_2.12;2.6.15
@@ -1270,6 +1285,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -1821,6 +1848,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
@@ -2149,8 +2188,10 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->runtime(*)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->master(compile)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-beans;4.3.11.RELEASE [compile->compile]
@@ -2382,6 +2423,22 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime(*)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -2698,8 +2755,10 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->runtime(*)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->master(compile)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-beans;4.3.11.RELEASE [runtime->compile]
@@ -2931,6 +2990,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
@@ -3423,6 +3494,14 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [test->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [test->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->runtime(*)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->master(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->compile(*)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.5.v20170502 [test->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;9.4.5.v20170502 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;9.4.5.v20170502
@@ -3606,17 +3685,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.25 [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.25 [test->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.25 [test->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->compile]
-[debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;23.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: com.google.guava#guava;23.0
-[debug] 	found com.google.guava#guava;23.0 in sbt-chain
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-core;4.3.11.RELEASE [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-core;4.3.11.RELEASE [test->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-core;4.3.11.RELEASE [test->compile]
@@ -3839,15 +3907,20 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;3.5.3 [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;3.5.3 [test->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;3.5.3 [test->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->runtime]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
-[debug] sbt-chain: Checking cache for: dependency: com.google.code.gson#gson;2.8.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.8.0
-[debug] 	found com.google.code.gson#gson;2.8.0 in sbt-chain
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->master(compile)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->runtime]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->compile]
@@ -4503,6 +4576,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -5056,6 +5141,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile-internal->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile-internal->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile-internal->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile-internal->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile-internal->compile]
@@ -5611,6 +5708,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -6162,6 +6271,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
@@ -6714,6 +6835,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime-internal->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime-internal->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime-internal->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime-internal->compile]
@@ -7034,19 +7167,13 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [compile->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [compile->master(compile)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [compile->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [compile->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-beans;4.3.11.RELEASE [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-beans;4.3.11.RELEASE [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-beans;4.3.11.RELEASE [compile->compile]
@@ -7276,6 +7403,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [compile->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [compile->compile]
@@ -7591,19 +7730,13 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [runtime->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [runtime->master(compile)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [runtime->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [runtime->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-beans;4.3.11.RELEASE [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-beans;4.3.11.RELEASE [runtime->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-beans;4.3.11.RELEASE [runtime->compile]
@@ -7833,6 +7966,18 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.inject.extensions#guice-assistedinject;4.1.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [runtime->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.typesafe.play#play-streams_2.12;2.6.15 [runtime->compile]
@@ -8279,6 +8424,14 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [test->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [test->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->runtime(*)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->master(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->compile(*)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.5.v20170502 [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.5.v20170502 [test->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.5.v20170502 [test->compile]
@@ -8444,14 +8597,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.25 [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.25 [test->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.25 [test->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-core;4.3.11.RELEASE [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-core;4.3.11.RELEASE [test->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-core;4.3.11.RELEASE [test->compile]
@@ -8644,12 +8789,20 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;3.5.3 [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;3.5.3 [test->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;3.5.3 [test->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->master(compile)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->runtime]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->compile]
@@ -9156,6 +9309,14 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [test-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [test-internal->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.javassist#javassist;3.21.0-GA [test-internal->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test-internal->master(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test-internal->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test-internal->compile(*)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;22.0 [test-internal->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.5.v20170502 [test-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.5.v20170502 [test-internal->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.5.v20170502 [test-internal->compile]
@@ -9321,14 +9482,6 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.25 [test-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.25 [test-internal->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.25 [test-internal->master]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test-internal->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test-internal->runtime(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test-internal->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test-internal->master(compile)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test-internal->runtime]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test-internal->compile]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test-internal->compile(*)]
-[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.guava#guava;23.0 [test-internal->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-core;4.3.11.RELEASE [test-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-core;4.3.11.RELEASE [test-internal->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.springframework#spring-core;4.3.11.RELEASE [test-internal->compile]
@@ -9521,12 +9674,20 @@
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;3.5.3 [test-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;3.5.3 [test-internal->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;3.5.3 [test-internal->master]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->default]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->compile]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->master(compile)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->runtime]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->default(compile)]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->runtime]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->compile]
+[debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->compile(*)]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->com.google.code.gson#gson;2.8.0 [test-internal->master]
 [debug] == resolving dependencies dmn#cryptocurrency$sources;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test-internal->compile]
@@ -10164,186 +10325,121 @@
 [debug] circular dependency found: org.seleniumhq.selenium#htmlunit-driver;2.27->net.sourceforge.htmlunit#htmlunit;2.27->...
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.11!jackson-core.jar(src)
-[debug] no default ivy user dir defined: set to C:\Users\Damian\.ivy2
-[debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.14!animal-sniffer-annotations.jar(src)
-[debug] 	[NOT REQUIRED] org.javassist#javassist;3.21.0-GA!javassist.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-streams_2.12;2.6.15!play-streams_2.12.jar(src)
-[debug] no default ivy user dir defined: set to C:\Users\Damian\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\Damian\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\Damian\.ivy2
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\Damian\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\Damian\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to C:\Users\Damian\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\Damian\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (125ms)
-[debug] 	default cache: C:\Users\Damian\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (63ms)
-[debug] 	default cache: C:\Users\Damian\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.reflections#reflections;0.9.11!reflections.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.12;2.6.15!filters-helpers_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.12;2.6.15!play-logback_2.12.jar(src)
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.7.0!jjwt.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src)
-[debug] settings loaded (78ms)
-[debug] 	default cache: C:\Users\Damian\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.6.15!play-exceptions.jar(src)
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] net.jodah#typetools;0.5.0!typetools.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
-[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.12;2.6.15!play_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.3.0.Final!jboss-logging.jar(src)
-[debug] including url: jar:file:/C:/Users/Damian/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.6.15!build-link.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-utils;2.6.15!play-netty-utils.jar(src)
-[debug] 	[NOT REQUIRED] com.google.guava#guava;23.0!guava.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-guice_2.12;2.6.15!play-guice_2.12.jar(src)
-[debug] settings loaded (94ms)
-[debug] 	default cache: C:\Users\Damian\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-akka-http-server_2.12;2.6.15!play-akka-http-server_2.12.jar(src)
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.google.guava#guava;22.0!guava.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.5.3!selenium-support.jar(src)
-[debug] 	[NOT REQUIRED] org.springframework#spring-beans;4.3.11.RELEASE!spring-beans.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.11!akka-slf4j_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-api;9.4.5.v20170502!websocket-api.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-java_2.12;2.6.15!play-java_2.12.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.11!jackson-datatype-jsr310.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml#classmate;1.3.1!classmate.jar(src)
-[debug] 	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;3.3.0!fluentlenium-core.jar(src)
-[debug] 	[NOT REQUIRED] org.hibernate#hibernate-validator;5.4.1.Final!hibernate-validator.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-exec;1.3!commons-exec.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.11!akka-protobuf_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.9!play-json_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar(src)
-[debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.0.13!akka-parsing_2.12.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.27!htmlunit.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.27!neko-htmlunit.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.9!play-functional_2.12.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.27!htmlunit-core-js.jar(src)
-[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
-[debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src)
-[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
-[debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
-[debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.5.3!selenium-api.jar(src)
 [debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.8.0!gson.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.14!twirl-api_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.1.0!jna-platform.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.5.v20170502!jetty-http.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.11!akka-stream_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.5.v20170502!websocket-client.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-java-forms_2.12;2.6.15!play-java-forms_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
+[debug] 	[NOT REQUIRED] org.javassist#javassist;3.21.0-GA!javassist.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.11!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;22.0!guava.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.25!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] org.springframework#spring-core;4.3.11.RELEASE!spring-core.jar(src)
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.23!cssparser.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-streams_2.12;2.6.15!play-streams_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.0.13!akka-http-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#htmlunit-driver;2.27!htmlunit-driver.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.12;2.6.15!play_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.11.1!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.11!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.11!jackson-annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.3.0.Final!jboss-logging.jar(src)
+[debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
+[debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.11!jackson-datatype-jdk8.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.5.3!selenium-support.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-api;9.4.5.v20170502!websocket-api.jar(src)
+[debug] 	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.0.18!error_prone_annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;3.3.0!fluentlenium-core.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-server_2.12;2.6.15!play-server_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-exec;1.3!commons-exec.jar(src)
+[debug] 	[NOT REQUIRED] org.springframework#spring-context;4.3.11.RELEASE!spring-context.jar(src)
+[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
+[debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.27!htmlunit.jar(src)
+[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.1.0!guice-assistedinject.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.5.v20170502!websocket-client.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.9!play-json_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.0.13!akka-parsing_2.12.jar(src)
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.9!play-functional_2.12.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.23!cssparser.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#htmlunit-driver;2.27!htmlunit-driver.jar(src)
+[debug] 	[NOT REQUIRED] com.google.inject#guice;4.1.0!guice.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;3.5.3!selenium-firefox-driver.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.12;2.6.15!play-test_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.11!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-java_2.12;2.6.15!play-java_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml#classmate;1.3.1!classmate.jar(src)
+[debug] 	[NOT REQUIRED] org.hibernate#hibernate-validator;5.4.1.Final!hibernate-validator.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.5.v20170502!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src)
-[debug] 	[NOT REQUIRED] com.google.inject#guice;4.1.0!guice.jar(src)
-[debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;3.5.3!selenium-remote-driver.jar(src)
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.11!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-server_2.12;2.6.15!play-server_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.springframework#spring-context;4.3.11.RELEASE!spring-context.jar(src)
-[debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src)
-[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.11!jackson-datatype-jdk8.jar(src)
-[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.1.0!guice-assistedinject.jar(src)
-[debug] 	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.0.18!error_prone_annotations.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.5.v20170502!jetty-io.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.5.v20170502!jetty-client.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-common;9.4.5.v20170502!websocket-common.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.5!commons-io.jar(src)
 [debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.1.0!jna.jar(src)
 [debug] 	[NOT REQUIRED] cglib#cglib-nodep;3.2.4!cglib-nodep.jar(src)
 [debug] 	[NOT REQUIRED] org.atteo.classindex#classindex;3.4!classindex.jar(src)
-[debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.12;2.6.15!play-docs_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.reflections#reflections;0.9.11!reflections.jar(src)
+[debug] 	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.12;2.6.15!filters-helpers_2.12.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.27!neko-htmlunit.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.27!htmlunit-core-js.jar(src)
+[debug] 	[NOT REQUIRED] org.springframework#spring-beans;4.3.11.RELEASE!spring-beans.jar(src)
+[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
+[debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
+[debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.14!animal-sniffer-annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
+[debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)
+[debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.12;2.6.15!play-logback_2.12.jar(src)
+[debug] 	[NOT REQUIRED] net.jodah#typetools;0.5.0!typetools.jar(src)
+[debug] 	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.7.0!jjwt.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.5.3!selenium-api.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.1.0!jna-platform.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.5.v20170502!jetty-http.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.6.15!build-link.jar(src)
+[debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;3.5.3!selenium-remote-driver.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-omnidoc_2.12;2.6.15!play-omnidoc_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-utils;2.6.15!play-netty-utils.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar(src)
+[debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src)
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.6.0!pegdown.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-guice_2.12;2.6.15!play-guice_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.12;1.8.1!play-doc_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.6.15!play-exceptions.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.12;2.6.15!play-docs_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-akka-http-server_2.12;2.6.15!play-akka-http-server_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.14!twirl-api_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src)
-[debug] :: resolution report :: resolve 11103ms :: artifacts dl 342ms
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.11!akka-slf4j_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.11!akka-stream_2.12.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.11!jackson-datatype-jsr310.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.11!akka-protobuf_2.12.jar(src)
+[debug] :: resolution report :: resolve 4836ms :: artifacts dl 129ms
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT compile produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-compile.xml
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT runtime produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-runtime.xml
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT test produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-test.xml
@@ -10364,4 +10460,4 @@
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT pom produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-pom.xml
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT scala-tool produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-scala-tool.xml
 [debug] 	report for dmn#cryptocurrency$sources;1.0-SNAPSHOT docs produced in C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\target\scala-2.12\resolution-cache\reports\dmn-cryptocurrency$sources-docs.xml
-[debug] 	resolve done (11103ms resolve - 342ms download)
+[debug] 	resolve done (4836ms resolve - 129ms download)

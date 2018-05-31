@@ -1,2 +1,4 @@
-[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\controllers\HomeController.java:29:1:  java.util.LinkedList<models.Point> cannot be converted to java.util.Set<models.Point>
-[error]         Set<Point> points = DiagramModel.getAllPoints() ;
+[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:40:36: not found: value line
+[error]                      @for(point <- line(0).diagramPoints){
+[error]                                    ^
+[error] one error found

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/conf/routes
-// @DATE:Wed May 30 00:15:24 CEST 2018
+// @DATE:Thu May 31 11:08:23 CEST 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -29,6 +29,16 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:12
+    def fetchTest: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.fetchTest",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "diagram/fetchTest"})
+        }
+      """
+    )
+  
     // @LINE:10
     def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.update",
@@ -51,7 +61,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:13
+  // @LINE:15
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -59,7 +69,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:13
+    // @LINE:15
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """

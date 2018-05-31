@@ -4,7 +4,7 @@
 		module="cryptocurrency_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180528172358"
+		publication="20180531120313"
 	>
 		<description>
 		CryptoCurrency
@@ -50,5 +50,6 @@
 		<dependency org="com.typesafe.play" name="play-logback_2.12" rev="2.6.15" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-akka-http-server_2.12" rev="2.6.15" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.15" conf="compile->default(compile)"/>
+		<dependency org="com.google.code.gson" name="gson" rev="2.8.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

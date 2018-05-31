@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/conf/routes
-// @DATE:Wed May 30 00:15:24 CEST 2018
+// @DATE:Thu May 31 11:08:23 CEST 2018
 
 import play.api.mvc.Call
 
@@ -24,6 +24,12 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "diagram/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[String]].unbind("dateFrom", dateFrom)) + "/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[String]].unbind("dateTo", dateTo)))
     }
   
+    // @LINE:12
+    def fetchTest(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "diagram/fetchTest")
+    }
+  
     // @LINE:10
     def update(): Call = {
       
@@ -38,14 +44,14 @@ package controllers {
   
   }
 
-  // @LINE:13
+  // @LINE:15
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:13
+    // @LINE:15
     def versioned(file:Asset): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
