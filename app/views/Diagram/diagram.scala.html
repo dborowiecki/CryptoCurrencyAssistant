@@ -1,17 +1,62 @@
-@(dateFrom: String, dateTo: String, points: List[Point])
+@(dateFrom: String, dateTo: String, input: List[CurrencyLine])
 
 <html>
-    <head>
-        <title>This is diagram!</title>
-    </head>
-    <body>
-        <h1>@dateFrom</h1>
-        <h1>@dateTo</h1>
+<head>
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 
-    <h3>PUNKTY:</h3>
-    @for(point <- points){
-        <a>@point.x</a>
-        <hr>
-    }
-    </body>
+    <title>This is diagram!</title>
+</head>
+<body>
+<h1>@dateFrom</h1>
+<h1>@dateTo</h1>
+
+<h3>PUNKTY:</h3>
+@for(line <- input){
+<a>@line</a>
+<hr>
+}
+<div class="container">
+    <canvas id="myChart" width="50%" height="20%"></canvas>
+    <script>
+  var ctx = document.getElementById("myChart");
+  var myChart = new Chart.Line(ctx, {
+      type: 'line',
+      data: {
+          labels: [
+                     @for(point <- input(0).diagramPoints){
+                       '@point.x' ,
+                      }
+
+          ],
+          datasets: [{
+				        label: 'BTC',
+				        borderColor: 'rgba(255, 0, 0, 1)',
+				        backgroundColor: 'rgba(255, 0, 0, 1)',
+                fill: false,
+                data: [
+
+                     @for(point <- input(0).diagramPoints){
+                       @point.y ,
+                     }
+
+                ]
+          }]
+      },
+      options: {
+        scales: {
+						yAxes: [{
+							type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+							display: true,
+							position: 'left',
+							id: 'y-axis-1',
+						}],
+					}
+
+      }
+
+  });
+  </script>
+</div>
+</body>
 </html>

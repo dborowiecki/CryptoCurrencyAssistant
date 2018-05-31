@@ -1,10 +1,14 @@
 package controllers;
 
+import models.CurrencyLine;
 import models.DiagramModel;
+import models.DiagramPoint;
 import play.mvc.*;
-import models.Point;
+import services.DataFetcher;
 import views.html.Diagram.*;
 
+import java.io.IOException;
+import java.util.Currency;
 import java.util.LinkedList;
 import java.util.Set;
 
@@ -26,12 +30,26 @@ public class HomeController extends Controller {
     }
 
     public Result diagram(String dateFrom, String dateTo){
-        DiagramModel.addPoint(new Point(1, 4));
-        LinkedList<Point> points = DiagramModel.getAllPoints() ;
-        return ok(diagram.render(dateFrom, dateTo, points));
+        DiagramModel d = new DiagramModel("Cryptocurrency");
+        d.createCurrencyLine("BTCUSD");
+        d.createCurrencyLine("ETHUSD");
+        d.createCurrencyLine("LTCUSD");
+        return ok(diagram.render(dateFrom, dateTo, d.getLines()));
+        //return ok("hello");
     }
 
     public Result update(){
         return TODO;
+    }
+
+    public Result fetchTest(){
+        DiagramModel d = new DiagramModel("Cryptocurrency");
+        d.createCurrencyLine("BTCUSD");
+        d.createCurrencyLine("ETHUSD");
+        d.createCurrencyLine("LTCUSD");
+        CurrencyLine test = d.getLines().get(0);//new CurrencyLine("BTCUSD");
+
+        return ok(fetcher.render(d.getLines()));
+
     }
 }
