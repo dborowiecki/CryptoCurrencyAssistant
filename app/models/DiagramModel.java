@@ -23,6 +23,11 @@ public class DiagramModel {
     public void createCurrencyLine(String currency){
         currencyLines.add(new CurrencyLine(currency));
     }
+
+    public void createTrimmedLine(String currency, String dateFrom, String dateTo){
+        currencyLines.add(CurrencyLine.createNewLine(currency, dateFrom, dateTo));
+    }
+
     public void addCurrencyLine(CurrencyLine line){
         currencyLines.add(line);
     }
