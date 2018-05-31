@@ -1,5 +1,5 @@
-@(dateFrom: String, dateTo: String, input: List[CurrencyLine])
-
+@(dateFrom: String, dateTo: String, diagram: DiagramModel)
+@input = @{diagram.currencyLines}
 <html>
 <head>
     <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js'></script>
@@ -19,6 +19,16 @@
 <div class="container">
     <canvas id="myChart" width="50%" height="20%"></canvas>
     <script>
+    Chart.scaleService.updateScaleDefaults('logarithmic', {
+    ticks: {
+        ticks: {
+    callback: function(tick, index, ticks) {
+      return tick.toLocaleString()
+    }
+  }
+    }
+});
+
   var ctx = document.getElementById("myChart");
   var myChart = new Chart.Line(ctx, {
       type: 'line',
@@ -29,31 +39,54 @@
                       }
 
           ],
-          datasets: [{
-				        label: 'BTC',
-				        borderColor: 'rgba(255, 0, 0, 1)',
-				        backgroundColor: 'rgba(255, 0, 0, 1)',
+          datasets: [
+          @for(line <- input){
+          {
+				        label: '@line.name',
+				        borderColor: '@line.color',
+				        backgroundColor: '@line.color',
                 fill: false,
                 data: [
-
-                     @for(point <- input(0).diagramPoints){
-                       @point.y ,
+                     @for(point <- line.diagramPoints){
+                       {x:'@point.x', y:@point.y},
                      }
 
                 ]
-          }]
+          },
+          }
+          ]
       },
       options: {
+        elements: {
+            point: { radius: 0 }
+        },
         scales: {
 						yAxes: [{
-							type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
-							display: true,
-							position: 'left',
-							id: 'y-axis-1',
+							type: 'logarithmic',
+                    ticks: {
+                        min: 0,
+                        max: 20000,
+                        callback: function(value, index, values) {//needed to change the scientific notation results from using logarithmic scale
+                            return Number(value.toString());//pass tick values as a string into Number function
+                        }
+                    },
+                    afterBuildTicks: function(pckBarChart) {
+                        pckBarChart.ticks = [];
+                        var steps = 10
+                        var axis = 20000;
+                        var max = 20000;
+                        var i;
+                        for (i = 1; i <steps; i++) {
+                             pckBarChart.ticks.push(Math.floor(max/i));
+                             max = max/2;
+                        }
+                      }
 						}],
-					}
+						 scaleOverride: true,
+        }
 
       }
+
 
   });
   </script>

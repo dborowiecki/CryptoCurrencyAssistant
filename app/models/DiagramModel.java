@@ -21,9 +21,11 @@ public class DiagramModel {
     }
 
     public void createCurrencyLine(String currency){
-        currencyLines.add(new CurrencyLine(currency));
+        currencyLines.add(CurrencyLine.createNewLine(currency));
     }
-
+    public void changeLineColor(CurrencyLine l,int r, int g, int b){
+        l.setColor(r,g,b);
+    }
     public void createTrimmedLine(String currency, String dateFrom, String dateTo){
         currencyLines.add(CurrencyLine.createNewLine(currency, dateFrom, dateTo));
     }

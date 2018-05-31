@@ -30,11 +30,24 @@ public class HomeController extends Controller {
     }
 
     public Result diagram(String dateFrom, String dateTo){
+        dateFrom = "2015-11-10";
+        dateTo = "2018-03-15";
         DiagramModel d = new DiagramModel("Cryptocurrency");
-        d.createCurrencyLine("BTCUSD");
-        d.createCurrencyLine("ETHUSD");
-        d.createCurrencyLine("LTCUSD");
-        return ok(diagram.render(dateFrom, dateTo, d.getLines()));
+        CurrencyLine newLine;
+
+        newLine = CurrencyLine.createNewLine("BTCUSD", dateFrom, dateTo);
+        d.addCurrencyLine(newLine);
+        newLine.setColor(255,0,0);
+
+        newLine = CurrencyLine.createNewLine("ETHUSD", dateFrom, dateTo);
+        d.addCurrencyLine(newLine);
+        newLine.setColor(0,255,0);
+
+        newLine = CurrencyLine.createNewLine("LTCUSD", dateFrom, dateTo);
+        d.addCurrencyLine(newLine);
+        newLine.setColor(0,0, 255);
+
+        return ok(diagram.render(dateFrom, dateTo, d));
         //return ok("hello");
     }
 
