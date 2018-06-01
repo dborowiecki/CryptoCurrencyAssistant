@@ -4,7 +4,7 @@
 		module="cryptocurrency-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180528171834"
+		publication="20180601131315"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
@@ -35,5 +35,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.4" conf="scala-tool->default,optional(default);provided->default(compile)"/>
 		<dependency org="org.scala-sbt" name="sbt" rev="1.0.4" conf="provided->default(compile)"/>
 		<dependency org="com.typesafe.play" name="sbt-plugin" rev="2.6.15" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="com.typesafe.sbt" name="sbt-less" rev="1.1.2" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 	</dependencies>
 </ivy-module>

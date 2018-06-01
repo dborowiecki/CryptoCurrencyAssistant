@@ -3,13 +3,14 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                           controllers.HomeController.index
+GET     /                          controllers.HomeController.index
 
-GET     /diagram/:dateFrom/:dateTo  controllers.HomeController.diagram(dateFrom: String, dateTo: String)
+GET     /diagram/                  controllers.HomeController.diagram()
 
 GET    /diagram/update             controllers.HomeController.update()
 
 GET    /diagram/fetchTest          controllers.HomeController.fetchTest()
 
+GET    /diagram/formTest        controllers.HomeController.formTest()
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+GET     /*file               controllers.Assets.versioned(path="/public", file: Asset)

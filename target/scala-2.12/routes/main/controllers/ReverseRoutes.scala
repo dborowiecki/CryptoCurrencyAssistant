@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/conf/routes
-// @DATE:Thu May 31 11:08:23 CEST 2018
+// @DATE:Fri Jun 01 13:51:01 CEST 2018
 
 import play.api.mvc.Call
 
@@ -18,10 +18,16 @@ package controllers {
     }
 
   
-    // @LINE:8
-    def diagram(dateFrom:String, dateTo:String): Call = {
+    // @LINE:14
+    def formTest(): Call = {
       
-      Call("GET", _prefix + { _defaultPrefix } + "diagram/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[String]].unbind("dateFrom", dateFrom)) + "/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[String]].unbind("dateTo", dateTo)))
+      Call("GET", _prefix + { _defaultPrefix } + "diagram/formTest")
+    }
+  
+    // @LINE:10
+    def update(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "diagram/update")
     }
   
     // @LINE:12
@@ -30,10 +36,10 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "diagram/fetchTest")
     }
   
-    // @LINE:10
-    def update(): Call = {
+    // @LINE:8
+    def diagram(): Call = {
       
-      Call("GET", _prefix + { _defaultPrefix } + "diagram/update")
+      Call("GET", _prefix + { _defaultPrefix } + "diagram/")
     }
   
     // @LINE:6
@@ -44,17 +50,17 @@ package controllers {
   
   }
 
-  // @LINE:15
+  // @LINE:16
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:15
+    // @LINE:16
     def versioned(file:Asset): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
-      Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
+      Call("GET", _prefix + { _defaultPrefix } + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
     }
   
   }

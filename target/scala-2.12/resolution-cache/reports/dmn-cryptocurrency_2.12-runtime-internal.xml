@@ -7,8 +7,80 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20180531120313"/>
+		date="20180601135824"/>
 	<dependencies>
+		<module organisation="javax.xml.bind" name="jaxb-api">
+			<revision name="2.1" status="release" pubdate="20071001095213" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="68">
+				<metadata-artifact status="successful" details="" size="486" time="297" location="C:\Users\Damian\.ivy2\cache\javax.xml.bind\jaxb-api\ivy-2.1.xml" searched="true" original-local-location="C:\Users\Damian\.ivy2\cache\javax.xml.bind\jaxb-api\ivy-2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.pom"/>
+				<caller organisation="dmn" name="cryptocurrency_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jaxb-api" type="jar" ext="jar" status="successful" details="" size="89967" time="609" location="C:\Users\Damian\.ivy2\cache\javax.xml.bind\jaxb-api\jars\jaxb-api-2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1" status="release" pubdate="20060503014829" resolver="public" artresolver="public" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="successful" details="" size="1058" time="250" location="C:\Users\Damian\.ivy2\cache\javax.activation\activation\ivy-1.1.xml" searched="true" original-local-location="C:\Users\Damian\.ivy2\cache\javax.activation\activation\ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="javax.xml.bind" name="jaxb-api" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.1"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="successful" details="" size="62983" time="266" location="C:\Users\Damian\.ivy2\cache\javax.activation\activation\jars\activation-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.stream" name="stax-api">
+			<revision name="1.0-2" status="release" pubdate="20081004195903" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="GNU General Public Library" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="http://www.sun.com/cddl/cddl.html"/>
+				<metadata-artifact status="successful" details="" size="962" time="250" location="C:\Users\Damian\.ivy2\cache\javax.xml.stream\stax-api\ivy-1.0-2.xml" searched="true" original-local-location="C:\Users\Damian\.ivy2\cache\javax.xml.stream\stax-api\ivy-1.0-2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom"/>
+				<caller organisation="javax.xml.bind" name="jaxb-api" conf="default, compile, runtime, master" rev="1.0-2" rev-constraint-default="1.0-2" rev-constraint-dynamic="1.0-2" callerrev="2.1"/>
+				<artifacts>
+					<artifact name="stax-api" type="jar" ext="jar" status="successful" details="" size="23346" time="375" location="C:\Users\Damian\.ivy2\cache\javax.xml.stream\stax-api\jars\stax-api-1.0-2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars" name="bootstrap">
+			<revision name="4.0.0" status="release" pubdate="20180119052058" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="65">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4215" time="0" location="C:\Users\Damian\.ivy2\cache\org.webjars\bootstrap\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/bootstrap/4.0.0/bootstrap-4.0.0.pom"/>
+				<caller organisation="dmn" name="cryptocurrency_2.12" conf="compile, runtime-internal, runtime, optional" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="bootstrap" type="jar" ext="jar" status="no" details="" size="862293" time="0" location="C:\Users\Damian\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-4.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/bootstrap/4.0.0/bootstrap-4.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars.npm" name="popper.js">
+			<revision name="1.11.1" status="release" pubdate="20170811113907" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="MIT" url="https://spdx.org/licenses/MIT#licenseText"/>
+				<metadata-artifact status="no" details="" size="2578" time="0" location="C:\Users\Damian\.ivy2\cache\org.webjars.npm\popper.js\ivy-1.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/npm/popper.js/1.11.1/popper.js-1.11.1.pom"/>
+				<caller organisation="org.webjars" name="bootstrap" conf="default, compile, runtime, master" rev="1.11.1" rev-constraint-default="1.11.1" rev-constraint-dynamic="1.11.1" callerrev="4.0.0"/>
+				<artifacts>
+					<artifact name="popper.js" type="jar" ext="jar" status="no" details="" size="433253" time="0" location="C:\Users\Damian\.ivy2\cache\org.webjars.npm\popper.js\jars\popper.js-1.11.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/npm/popper.js/1.11.1/popper.js-1.11.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars" name="jquery">
+			<revision name="3.0.0" status="release" pubdate="20160610183333" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="MIT License" url="https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3791" time="0" location="C:\Users\Damian\.ivy2\cache\org.webjars\jquery\ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/jquery/3.0.0/jquery-3.0.0.pom"/>
+				<caller organisation="org.webjars" name="bootstrap" conf="default, compile, runtime, master" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="4.0.0"/>
+				<artifacts>
+					<artifact name="jquery" type="jar" ext="jar" status="no" details="" size="164927" time="0" location="C:\Users\Damian\.ivy2\cache\org.webjars\jquery\jars\jquery-3.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/jquery/3.0.0/jquery-3.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.play" name="play-akka-http-server_2.12">
 			<revision name="2.6.15" status="release" pubdate="20180525034817" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.6.15/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="57">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>

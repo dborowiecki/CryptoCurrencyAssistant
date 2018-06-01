@@ -1,3 +1,2 @@
-[error] [Error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:57
-[error] </html>: Expected ending '}'
-[error] (compile:twirlCompileTemplates) Twirl compilation failed
+[error] [Error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:129
+[error] </html>: Expected '}' but found 'EOF'

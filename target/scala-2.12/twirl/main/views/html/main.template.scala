@@ -41,16 +41,15 @@ Seq[Any](format.raw/*7.32*/("""
 <html lang="en">
     <head>
         """),format.raw/*12.62*/("""
-        """),format.raw/*13.9*/("""<title>"""),_display_(/*13.17*/title),format.raw/*13.22*/("""</title>
-        <link rel="stylesheet" media="screen" href=""""),_display_(/*14.54*/routes/*14.60*/.Assets.versioned("stylesheets/main.css")),format.raw/*14.101*/("""">
-        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*15.59*/routes/*15.65*/.Assets.versioned("images/favicon.png")),format.raw/*15.104*/("""">
+        """),format.raw/*13.9*/("""<title>Tytul</title>
+        <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js'></script>
+
     </head>
     <body>
         """),format.raw/*19.32*/("""
         """),_display_(/*20.10*/content),format.raw/*20.17*/("""
 
-        """),format.raw/*22.9*/("""<script src=""""),_display_(/*22.23*/routes/*22.29*/.Assets.versioned("javascripts/main.js")),format.raw/*22.69*/("""" type="text/javascript"></script>
-    </body>
+    """),format.raw/*22.5*/("""</body>
 </html>
 """))
       }
@@ -68,11 +67,11 @@ Seq[Any](format.raw/*7.32*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Mon May 28 17:33:57 CEST 2018
+                  DATE: Fri Jun 01 12:46:11 CEST 2018
                   SOURCE: C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/app/views/main.scala.html
-                  HASH: 1c6ff78675beee071e369b305cd8e888a02716d8
-                  MATRIX: 1211->266|1336->296|1366->300|1449->408|1486->418|1521->426|1547->431|1637->494|1652->500|1715->541|1804->603|1819->609|1880->648|1945->776|1983->787|2011->794|2050->806|2091->820|2106->826|2167->866
-                  LINES: 33->7|38->7|40->9|43->12|44->13|44->13|44->13|45->14|45->14|45->14|46->15|46->15|46->15|49->19|50->20|50->20|52->22|52->22|52->22|52->22
+                  HASH: 81752c26727df86bbe3b1dd3fef22ad9ffc15fde
+                  MATRIX: 1211->266|1336->296|1366->300|1449->408|1486->418|1694->689|1732->700|1760->707|1795->715
+                  LINES: 33->7|38->7|40->9|43->12|44->13|49->19|50->20|50->20|52->22
                   -- GENERATED --
               */
           
