@@ -11,20 +11,6 @@ public class BitcoinAverageApiHandler {
     private String currency = "btcusd"; // Cryptocurrency BTCUSD/ETHUSD/LTCUSD
     private String period = "alltime"; // Alltime/monthly/daily
 
-    /*public String getRawHistoricData(String currency) throws WrongCurrencyException {
-        *//*String recivedData = "";
-        try {
-            DataFetcher fetcher = new DataFetcher(baseUrl.replace("{symbol}", currency));
-             recivedData = HtmlHandler.reciveGetRequestData(url);
-        } catch (IOException e) {
-            System.err.print("Wrong input while reciving data from API\n");
-            e.printStackTrace();
-        } finally {
-            if(recivedData== "") throw  new WrongCurrencyException(currency);
-        }
-        return recivedData;*//*
-    }*/
-
     public JsonArray getJsonData(String currency) throws WrongCurrencyException{
         try {
             DataFetcher fetcher = new DataFetcher(baseUrl.replace("{symbol}", currency));

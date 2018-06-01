@@ -3,14 +3,14 @@ package controllers;
 import models.CurrencyLine;
 import models.DiagramModel;
 import models.DiagramPoint;
+import play.data.DynamicForm;
+import play.data.Form;
+import play.data.FormFactory;
 import play.mvc.*;
 import services.DataFetcher;
 import views.html.Diagram.*;
 
-import java.io.IOException;
-import java.util.Currency;
-import java.util.LinkedList;
-import java.util.Set;
+import javax.inject.Inject;
 
 
 /**
@@ -25,14 +25,24 @@ public class HomeController extends Controller {
      * this method will be called when the application receives a
      * <code>GET</code> request with a path of <code>/</code>.
      */
+    @Inject
+    FormFactory formFactory;
     public Result index() {
         return ok(views.html.index.render());
     }
 
-    public Result diagram(String dateFrom, String dateTo){
-        dateFrom = "2015-11-10";
-        dateTo = "2018-03-15";
-        DiagramModel d = new DiagramModel("Cryptocurrency");
+    public Result diagram(){
+        DynamicForm requestData = formFactory.form().bindFromRequest();
+        String firstname = requestData.get("dateFrom");
+        String lastname = requestData.get("dateTo");
+        System.out.print(firstname+" "+lastname);
+        String dateFrom = firstname;//"2015-11-10";
+        String dateTo = lastname;//"2018-03-15";
+
+        DynamicForm period = formFactory.form();
+        period.bindFromRequest("dateFrom", "dateTo");
+
+        DiagramModel d = new DiagramModel("Coint Trends");
         CurrencyLine newLine;
 
         newLine = CurrencyLine.createNewLine("BTCUSD", dateFrom, dateTo);
@@ -47,7 +57,7 @@ public class HomeController extends Controller {
         d.addCurrencyLine(newLine);
         newLine.setColor(0,0, 255);
 
-        return ok(diagram.render(dateFrom, dateTo, d));
+        return ok(diagram.render(firstname, lastname, d, period));
         //return ok("hello");
     }
 
@@ -63,6 +73,13 @@ public class HomeController extends Controller {
         CurrencyLine test = d.getLines().get(0);//new CurrencyLine("BTCUSD");
 
         return ok(fetcher.render(d.getLines()));
+
+    }
+
+    public Result formTest(){
+        DynamicForm period = formFactory.form();
+        period.bindFromRequest("dateFrom", "dateTo");
+        return ok(formTest.render(period));
 
     }
 }

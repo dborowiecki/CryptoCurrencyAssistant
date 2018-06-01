@@ -1,23 +1,59 @@
-@(dateFrom: String, dateTo: String, diagram: DiagramModel)
+@(dateFrom: String, dateTo: String, diagram: DiagramModel, myForm : DynamicForm)
+@import helper._;
+@diagramMin = { "2010-01-01" }
 @input = @{diagram.currencyLines}
 <html>
 <head>
-    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js'></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")">
 
-    <title>This is diagram!</title>
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js'></script>
+    <script type="text/javascript" src="@routes.Assets.versioned("javascripts/jquery-3.3.1.js")"></script>
+    <title>Coin trends!</title>
 </head>
 <body>
-<h1>@dateFrom</h1>
-<h1>@dateTo</h1>
-
-<h3>PUNKTY:</h3>
-@for(line <- input){
-<a>@line</a>
-<hr>
-}
+<nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+             <img src="@routes.Assets.versioned("images/kainosLogo.jpg")" width="10%" height="10%" class="d-inline-block align-top" alt="">
+             CurrencyTrends
+         </a>
+</nav>
 <div class="container">
+    <h2 id="label1">CointTrends - Challenge 2018 </h2>
+    <hr>
+
+
+     <h4 align="center"> Values between @dateFrom and @dateTo </h4>
+     <p align="center">
+        <font color="color_name|hex_number|rgb_number">  (Press currency to show/hide line) </font>
+     </p>
     <canvas id="myChart" width="50%" height="20%"></canvas>
+    <div style= "
+                 width: 50%;">
+        <h6> <b>CHANGE DISPLAYED PERIOD </b></h6>
+        @helper.form(action=routes.HomeController.diagram(), 'id -> "myForm"){
+            <div class="form-inline">
+                        @helper.inputText(myForm("dateFrom"),
+                                         'value->dateFrom,
+                                         'id->"datetimepicker1",
+                                         'class->"form-control",
+                                         'placeholder -> "From",
+                                         'onfocus->"(this.type='date')",
+                                         '_label -> null
+                                         )
+
+                        @helper.inputText(myForm("dateTo"),
+                                         'value->dateTo,
+                                         'id->"datetimepicker2",
+                                         'class->"form-control",
+                                         'placeholder -> "To",
+                                         'onfocus->"(this.type='date')",
+                                         '_label -> null
+                                         )
+            </div>
+                     <button class="btn btn-success" type="submit">Change!</button>
+        }
+    </div>
+
     <script>
     Chart.scaleService.updateScaleDefaults('logarithmic', {
     ticks: {
@@ -57,30 +93,32 @@
           ]
       },
       options: {
+      title: {
+            display: true,
+            text: '@diagram.title',
+            fontSize: 18
+        },
+       animation: {
+            duration: 0, // general animation time
+        },
+        hover: {
+            animationDuration: 0, // duration of animations when hovering an item
+        },
+        responsiveAnimationDuration: 0, // animation duration after a resize
         elements: {
-            point: { radius: 0 }
+            point: { radius: 0 },
+            line: {  tension: 0 }
         },
         scales: {
 						yAxes: [{
 							type: 'logarithmic',
                     ticks: {
                         min: 0,
-                        max: 20000,
                         callback: function(value, index, values) {//needed to change the scientific notation results from using logarithmic scale
                             return Number(value.toString());//pass tick values as a string into Number function
                         }
                     },
-                    afterBuildTicks: function(pckBarChart) {
-                        pckBarChart.ticks = [];
-                        var steps = 10
-                        var axis = 20000;
-                        var max = 20000;
-                        var i;
-                        for (i = 1; i <steps; i++) {
-                             pckBarChart.ticks.push(Math.floor(max/i));
-                             max = max/2;
-                        }
-                      }
+
 						}],
 						 scaleOverride: true,
         }
@@ -90,6 +128,38 @@
 
   });
   </script>
-</div>
+    <script type="text/javascript" >
+
+            $("#datetimepicker1").change( function () {
+                 $("#datetimepicker2").attr({
+                       "min" : $("#datetimepicker1").val()      // values (or variables) here
+                    });
+                    alert($(this).val());
+            });
+            $("#datetimepicker2").change(function () {
+                 $("#datetimepicker1").attr({
+                       "max" : $("#datetimepicker2").val()      // values (or variables) here
+                    });
+                    alert($(this).val());
+            });
+
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth()+1; //January is 0!
+        var yyyy = today.getFullYear();
+
+        if(dd<10) { dd = '0'+dd }
+
+        if(mm<10) {mm = '0'+mm}
+
+        today = yyyy + '-' + mm + '-' + dd;
+
+        document.getElementById("datetimepicker1").min = @diagramMin;
+        document.getElementById("datetimepicker2").min = @diagramMin;
+        document.getElementById("datetimepicker1").max = today;
+        document.getElementById("datetimepicker2").max = today;
+
+</script>
+    </div>
 </body>
 </html>

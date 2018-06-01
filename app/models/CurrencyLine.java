@@ -19,6 +19,7 @@ public class CurrencyLine{
     public LinkedList<DiagramPoint> diagramPoints;
     public String name;
     public String color = "rgba(255, 0, 0, 1)";
+
     public CurrencyLine(String currency){
         try {
             name = currency;
@@ -47,7 +48,9 @@ public class CurrencyLine{
     private void trimToPeriod(String from, String to){
         try {
             firstElementIndex = searchForDateIndex(to);
+            firstElementIndex -= firstElementIndex <= 0 ? 0 : 1;
             lastElementIndex = searchForDateIndex(from);
+            firstElementIndex += firstElementIndex <= 0 ? 0 : 1;
         } catch (ParseException e){
             System.err.print("Incorrectly formated data");
             e.printStackTrace();
@@ -62,7 +65,7 @@ public class CurrencyLine{
     private void createLineFromJson(){
         LinkedList<DiagramPoint> points = new LinkedList<>();
 
-        for(int i=firstElementIndex; i<lastElementIndex;i++){
+        for(int i=firstElementIndex; i<=lastElementIndex;i++){
             JsonElement jsonElement = jsonData.get(i);
             String xValue = DateFormater.formatDate(jsonElement.getAsJsonObject().get(xAxisMemberName).getAsString());
             Number yValue = jsonElement.getAsJsonObject().get(yAxisMemberName).getAsNumber();
