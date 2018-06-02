@@ -1,7 +1,2 @@
-[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:31:65: value ->@ is not a member of Symbol
-[error]                     @helper.inputDate(myForm("dateFrom"), 'value->@dateFrom,'max->"@Calendar.getInstance()", 'id->"datetimepicker1", 'class-> "form-control", 'placeholder -> "From",  '_label -> null)
-[error]                                                                 ^
-[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:36:63: value ->@ is not a member of Symbol
-[error]                     @helper.inputDate(myForm("dateTo"), 'value->@dateTo,'id->"datetimepicker2",'class-> "form-control date", 'placeholder -> "To",  '_label -> null)
-[error]                                                               ^
-[error] two errors found
+[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\controllers\HomeController.java:40:1:  java.lang.String cannot be converted to java.lang.Boolean
+[error]         Boolean showTrends = requestData.get("showTrends");
