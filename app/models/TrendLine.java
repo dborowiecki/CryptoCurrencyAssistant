@@ -7,108 +7,125 @@ import java.util.Date;
 
 public class TrendLine {
     public CurrencyLine currencyLine;
-    public String startDate;
-    public String endDate;
-    public DiagramPoint  lineStart;
-    public DiagramPoint  lineEnd;
-    public DiagramPoint[] linePoints = new DiagramPoint[2];
+    public DiagramPoint startPoint;
+    public DiagramPoint endingPoint;
+    public DiagramPoint[] extrema = new DiagramPoint[2];
     public String trending;
     public String color = "rgba(255, 0, 0, 1)";
 
-    public TrendLine(CurrencyLine line, String dateStart, String dateEnd) throws TrendLineException{
+    public TrendLine(CurrencyLine line, Date dateStart, Date dateEnd){
         this.currencyLine = line;
-        this.startDate = dateStart;
-        this.endDate = dateEnd;
 
-        coutTrending();
+        coutTrending(dateStart, dateEnd);
     }
 
-    public void coutTrending() throws TrendLineException{
+    public void coutTrending(Date startDate, Date endDate){
         DiagramPoint endingPoint;
         DiagramPoint startingPoint;
+        DiagramPoint  lineStart;
+        DiagramPoint  lineEnd;
+
         try {
-            endingPoint   = currencyLine.getPointByDate(DateFormater.stringToDate(endDate, "yyyy-MM-dd"));
-            startingPoint = currencyLine.getPointByDate(DateFormater.stringToDate(startDate, "yyyy-MM-dd"));
-        } catch (Exception e){
-            System.err.println("Data incorrectly passed");
-            e.printStackTrace();
+            System.out.println("START DATE: "+startDate+" Ending: "+endDate);
+
+            endingPoint   = currencyLine.getPointByDate(endDate);
+            startingPoint = currencyLine.getPointByDate(startDate);
+            System.out.println("Start point: "+startingPoint+" EndPoint: "+endingPoint);
+            int gain;
+            gain = endingPoint.y.intValue() - startingPoint.y.intValue();
+            color = gain > 0 ?  "rgba(0, 255, 0, 1)" : "rgba(255, 0, 0, 1)";
+            lineStart = startingPoint;
+            lineEnd = endingPoint;
+
+            if (gain > 0) findLowest(lineStart, lineEnd);
+            else findHighest(lineStart, lineEnd);
+
+            findStartAndEndingPoint(lineStart, lineEnd);
+
+        } catch (TrendLineException e){
+            System.err.println("Couldn't add new trend line, not enough data");
             return;
+        } catch (NullPointerException n){
+            System.err.println("One of dates not found in diagram");
         }
-        int gain;
-
-        gain = endingPoint.y.intValue() - startingPoint.y.intValue();
-        color = gain > 0 ?  "rgba(0, 255, 0, 1)" : "rgba(255, 0, 0, 1)";
-        lineStart = startingPoint;
-        lineEnd = endingPoint;
-
-        //Znaleźć największy dół
-        //Znaleźć największe szczyty
-        if(gain>0) findHighest();
-        else findLowest();
+        //System.out.println("INDEKSY: "+currencyLine.diagramPoints.indexOf(lineStart)+"  "+currencyLine.diagramPoints.indexOf(lineEnd));
         //Połączyć
 
-        //Wyznaczyć wyznaczyć prostą linię przechodzącą między punktami od start do stop
+        //Policzyć wartość dla punktu początkowego i końcowego
     }
 
 
-    private void findHighest() throws TrendLineException{
+    private void findHighest(DiagramPoint lineStart, DiagramPoint lineEnd) throws TrendLineException{
         int start = currencyLine.diagramPoints.indexOf(lineStart);
         int end = currencyLine.diagramPoints.indexOf(lineEnd);
         if(end-start<2) throw new TrendLineException();
         DiagramPoint first = currencyLine.diagramPoints.get(start);
         DiagramPoint second = currencyLine.diagramPoints.get(start+1);
-        linePoints[0] = first.y.doubleValue() >= second.y.doubleValue() ? first : second;
-        linePoints[1] = first.y.doubleValue() <= second.y.doubleValue() ? first : second;
+        extrema[0] = first.y.doubleValue() >= second.y.doubleValue() ? first : second;
+        extrema[1] = first.y.doubleValue() <= second.y.doubleValue() ? first : second;
         for(int i = start+2; i<=end; i++){
             DiagramPoint next = currencyLine.diagramPoints.get(i);
-            if(linePoints[0].y.doubleValue()<next.y.doubleValue()){
-                linePoints[1] = linePoints[0];
-                linePoints[0] = next;
+            if(extrema[0].y.doubleValue()<next.y.doubleValue()){
+                extrema[1] = extrema[0];
+                extrema[0] = next;
             }
             else {
-                if(linePoints[1].y.doubleValue()<next.y.doubleValue()){
-                    linePoints[1] = next;
+                if(extrema[1].y.doubleValue()<next.y.doubleValue()){
+                    extrema[1] = next;
                 }
             }
         }
     }
 
-    private void findLowest() throws TrendLineException{
+    private void findLowest(DiagramPoint lineStart, DiagramPoint lineEnd) throws TrendLineException{
         int start = currencyLine.diagramPoints.indexOf(lineStart);
         int end = currencyLine.diagramPoints.indexOf(lineEnd);
         if(end-start<2) throw new TrendLineException();
         DiagramPoint first = currencyLine.diagramPoints.get(start);
         DiagramPoint second = currencyLine.diagramPoints.get(start+1);
-        linePoints[0] = first.y.doubleValue() <= second.y.doubleValue() ? first : second;
-        linePoints[1] = first.y.doubleValue() >= second.y.doubleValue() ? first : second;
+        extrema[0] = first.y.doubleValue() <= second.y.doubleValue() ? first : second;
+        extrema[1] = first.y.doubleValue() >= second.y.doubleValue() ? first : second;
         for(int i = start+2; i<=end; i++){
             DiagramPoint next = currencyLine.diagramPoints.get(i);
-            if(linePoints[0].y.doubleValue()>next.y.doubleValue()){
-                linePoints[1] = linePoints[0];
-                linePoints[0] = next;
+            if(extrema[0].y.doubleValue()>next.y.doubleValue()){
+                extrema[1] = extrema[0];
+                extrema[0] = next;
             }
             else {
-                if(linePoints[1].y.doubleValue()>next.y.doubleValue()){
-                    linePoints[1] = next;
+                if(extrema[1].y.doubleValue()>next.y.doubleValue()){
+                    extrema[1] = next;
                 }
             }
         }
     }
 
-    public void printPointsAndPeaks(){
-        int start = currencyLine.diagramPoints.indexOf(lineStart);
-        int end = currencyLine.diagramPoints.indexOf(lineEnd);
-        for(int i = start; i<=end; i++){
-            DiagramPoint next = currencyLine.diagramPoints.get(i);
-            System.out.print("[" + next.x +", "+next.y+"], ");
-        }
+    private void findStartAndEndingPoint(DiagramPoint lineStart, DiagramPoint lineEnd){
+        Double functionFactor = 1.0;
+        Double functionAddValue = 0.0;
+        int extremaDeltaX = 0;
 
-        System.out.println(
-                "ZNALEZIONE:"
-                + "["+linePoints[0].x+", "+linePoints[0].y+"], "
-                + "["+linePoints[1].x+", "+linePoints[1].y+"], "
-        );
+        if(currencyLine.diagramPoints.indexOf(extrema[1])<currencyLine.diagramPoints.indexOf(extrema[1])){
+            DiagramPoint temp = extrema[1];
+            extrema[1] = extrema[0];
+            extrema[0] = temp;
+        }
+        int x1 = currencyLine.diagramPoints.indexOf(extrema[0]);
+        int x2 = currencyLine.diagramPoints.indexOf(extrema[1]);
+        double firstExtremeValue = extrema[0].y.doubleValue();
+        double secondExtremeValue= extrema[1].y.doubleValue();
+        extremaDeltaX = x2-x1;
+        double deltaY = (secondExtremeValue-firstExtremeValue)/extremaDeltaX;
+        double distanceX1 = x1-currencyLine.diagramPoints.indexOf(lineStart)+1;
+        double lineLen = currencyLine.diagramPoints.indexOf(lineEnd)-currencyLine.diagramPoints.indexOf(lineStart)+1;
+
+        startPoint  = new DiagramPoint(lineStart.x, lineStart.y.doubleValue()-(distanceX1*deltaY));
+        endingPoint = new DiagramPoint(lineEnd.x, lineEnd.y.doubleValue()+lineLen*deltaY);
+        /*System.out.println( "Extrema delta: "+extremaDeltaX
+                            +" Factor: "+functionFactor
+                            +" Added value:"+functionAddValue
+        );*/
     }
+
 
     class TrendLineException extends Exception{
         public TrendLineException() {

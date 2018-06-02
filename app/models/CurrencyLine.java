@@ -48,9 +48,9 @@ public class CurrencyLine{
     public void trimToPeriod(String from, String to){
         try {
             firstElementIndex = searchForDateIndex(to);
-            firstElementIndex -= firstElementIndex <= 0 ? 0 : 1;
+           // firstElementIndex -= firstElementIndex <= 0 ? 0 : 1;
             lastElementIndex   = searchForDateIndex(from);
-            firstElementIndex += firstElementIndex <= 0 ? 0 : 1;
+          //  firstElementIndex += firstElementIndex <= 0 ? 0 : 1;
         } catch (ParseException e){
             System.err.print("Incorrectly formated data");
             e.printStackTrace();

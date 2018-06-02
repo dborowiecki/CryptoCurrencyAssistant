@@ -1,7 +1,10 @@
-@(dateFrom: String, dateTo: String, diagram: DiagramModel, myForm : DynamicForm)
+@(dateFrom: String, dateTo: String, showTrends: Int, diagram: DiagramModel, myForm : DynamicForm)
 @import helper._;
+@import java.lang.String; val name="template"
+@import java.util.Map; var currencyTrends: List[TrendLine] = null
 @diagramMin = { "2010-01-01" }
 @input = @{diagram.currencyLines}
+@trendLines = @{diagram.currencyTrends}
 <html>
 <head>
     <link rel="stylesheet" type="text/css" media="screen" href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")">
@@ -51,7 +54,10 @@
                                          'onfocus->"(this.type='date')",
                                          '_label -> null
                                          )
+
+
             </div>
+            @checkbox(field = myForm("showTrends"), '_label -> "SHOW TRENDS (in progress)")
                      <button class="btn btn-success" type="submit">Change!</button>
         }
     </div>
@@ -79,7 +85,7 @@
           ],
           datasets: [
           @for(line <- input){
-          {
+            {
 				        label: '@line.currencyName',
 				        borderColor: '@line.color',
 				        backgroundColor: '@line.color',
@@ -90,8 +96,28 @@
                      }
 
                 ]
-          },
+              },
           }
+          @if(showTrends==1){
+              @for(line <- input){
+                    @{currencyTrends = trendLines.get(line.currencyName)}
+                      @for(trend <- currencyTrends){
+                        {
+                          label: 'hideme',
+                          borderColor: '@trend.color',
+                          backgroundColor: '@trend.color',
+                          fill: false,
+                          data: [
+                                 {x:'@trend.startPoint.x', y:@trend.startPoint.y},
+                                 {x:'@trend.endingPoint.x', y:@trend.endingPoint.y},
+                          ]
+                      },
+                  }
+
+              }
+             }
+
+
           ]
       },
       options: {
@@ -102,7 +128,12 @@
             fontSize: 18
         },
         legend: {
-                position: 'bottom'
+                position: 'bottom',
+                 labels: {
+                      filter: function(legendItem, chartData) {
+                           return !(legendItem.text === 'hideme');
+                          }
+                 }
             },
        animation: {
             duration: 0, // general animation time
@@ -127,11 +158,9 @@
 
 						}],
 						 scaleOverride: true,
-        }
+        },
 
-      }
-
-
+    }
   });
   </script>
     <script type="text/javascript" >
