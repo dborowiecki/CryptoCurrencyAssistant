@@ -35,19 +35,18 @@ public class HomeController extends Controller {
 
     public Result diagram(){
         DynamicForm requestData = formFactory.form().bindFromRequest();
-        String dateFrom = requestData.get("dateFrom");
-        String dateTo = requestData.get("dateTo");
-        Integer showTrends = requestData.get("showTrends")!= null ? 1 : 0;
+        String dateFrom = "";
+        String dateTo = "";
+        Integer showTrends = 0;
         DynamicForm period = formFactory.form();
         period.bindFromRequest("dateFrom", "dateTo", "showTrends");
         try {
-            if (Objects.equals(dateTo, "")) {
-                dateTo = DateFormater.dateToString(DateFormater.getCurrentDate(), "yyyy-MM-dd");
-            }
-            if (Objects.equals(dateFrom, "")) {
-                dateFrom = DateFormater.dateToString(
-                        DateFormater.addDays(DateFormater.getCurrentDate(),-9), "yyyy-MM-dd");
-            }
+            dateTo = requestData.get("dateFrom") == null ? DateFormater.dateToString(DateFormater.getCurrentDate(), "yyyy-MM-dd") :
+             requestData.get("dateTo");
+            dateFrom   = requestData.get("dateTo") == null ? DateFormater.dateToString(
+                    DateFormater.addDays(DateFormater.getCurrentDate(),-9), "yyyy-MM-dd") :
+            requestData.get("dateFrom");
+            showTrends = requestData.get("showTrends")!= null ? 1 : 0;
         } catch (Exception e){
             System.err.println("Data format is invalid");
         }
@@ -92,7 +91,7 @@ public class HomeController extends Controller {
 
     public Result formTest(){
         DynamicForm period = formFactory.form();
-        period.bindFromRequest("dateFrom", "dateTo");
+        period.bindFromRequest("dateFrom", "dateTo", "showTrends");
         return ok(formTest.render(period));
 
     }

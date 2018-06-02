@@ -30,7 +30,7 @@ public class TrendLine {
 
             endingPoint   = currencyLine.getPointByDate(endDate);
             startingPoint = currencyLine.getPointByDate(startDate);
-            System.out.println("Start point: "+startingPoint+" EndPoint: "+endingPoint);
+
             int gain;
             gain = endingPoint.y.intValue() - startingPoint.y.intValue();
             color = gain > 0 ?  "rgba(0, 255, 0, 1)" : "rgba(255, 0, 0, 1)";
