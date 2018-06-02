@@ -42,12 +42,15 @@ public class HomeController extends Controller {
         DynamicForm period = formFactory.form();
         period.bindFromRequest("dateFrom", "dateTo");
 
-        DiagramModel d = new DiagramModel("Coint Trends");
+        DiagramModel d = new DiagramModel("Coin Trends");
         CurrencyLine newLine;
 
         newLine = CurrencyLine.createNewLine("BTCUSD", dateFrom, dateTo);
         d.addCurrencyLine(newLine);
         newLine.setColor(255,0,0);
+
+        //Test trenLine
+        d.addTrendLine(d.currencyLines.get(0), "2018-05-01", "2018-05-02");
 
         newLine = CurrencyLine.createNewLine("ETHUSD", dateFrom, dateTo);
         d.addCurrencyLine(newLine);

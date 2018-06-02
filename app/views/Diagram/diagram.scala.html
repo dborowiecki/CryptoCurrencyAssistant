@@ -11,22 +11,24 @@
     <title>Coin trends!</title>
 </head>
 <body>
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light bg-dark">
         <a class="navbar-brand" href="#">
              <img src="@routes.Assets.versioned("images/kainosLogo.jpg")" width="10%" height="10%" class="d-inline-block align-top" alt="">
-             CurrencyTrends
+            <font color="#37B64D"> CurrencyTrends </font>
          </a>
 </nav>
+
 <div class="container">
-    <h2 id="label1">CointTrends - Challenge 2018 </h2>
+    <h2 id="label1">CoinTrends - Challenge 2018 </h2>
     <hr>
 
 
-     <h4 align="center"> Values between @dateFrom and @dateTo </h4>
-     <p align="center">
+
+    <canvas id="myChart" width="50%" height="20%"></canvas>
+    <p align="center">
         <font color="color_name|hex_number|rgb_number">  (Press currency to show/hide line) </font>
      </p>
-    <canvas id="myChart" width="50%" height="20%"></canvas>
+     <h6 align="center"> Diagram shows average value between <u>@dateFrom</u> and <u>@dateTo </u></h6>
     <div style= "
                  width: 50%;">
         <h6> <b>CHANGE DISPLAYED PERIOD </b></h6>
@@ -78,7 +80,7 @@
           datasets: [
           @for(line <- input){
           {
-				        label: '@line.name',
+				        label: '@line.currencyName',
 				        borderColor: '@line.color',
 				        backgroundColor: '@line.color',
                 fill: false,
@@ -93,11 +95,15 @@
           ]
       },
       options: {
+
       title: {
             display: true,
             text: '@diagram.title',
             fontSize: 18
         },
+        legend: {
+                position: 'bottom'
+            },
        animation: {
             duration: 0, // general animation time
         },
@@ -134,13 +140,11 @@
                  $("#datetimepicker2").attr({
                        "min" : $("#datetimepicker1").val()      // values (or variables) here
                     });
-                    alert($(this).val());
             });
             $("#datetimepicker2").change(function () {
                  $("#datetimepicker1").attr({
                        "max" : $("#datetimepicker2").val()      // values (or variables) here
                     });
-                    alert($(this).val());
             });
 
         var today = new Date();

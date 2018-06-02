@@ -17,12 +17,12 @@ public class CurrencyLine{
     private final String yAxisMemberName = "average";
     public static final String DATE_PATTERN = "yyy-MM-dd HH:mm:ss";
     public LinkedList<DiagramPoint> diagramPoints;
-    public String name;
+    public String currencyName;
     public String color = "rgba(255, 0, 0, 1)";
 
     public CurrencyLine(String currency){
         try {
-            name = currency;
+            currencyName = currency;
             jsonData = new BitcoinAverageApiHandler().getJsonData(currency);
             firstElementIndex = 0;
             lastElementIndex = jsonData.size();
@@ -45,11 +45,11 @@ public class CurrencyLine{
         return newLine;
     }
 
-    private void trimToPeriod(String from, String to){
+    public void trimToPeriod(String from, String to){
         try {
             firstElementIndex = searchForDateIndex(to);
             firstElementIndex -= firstElementIndex <= 0 ? 0 : 1;
-            lastElementIndex = searchForDateIndex(from);
+            lastElementIndex   = searchForDateIndex(from);
             firstElementIndex += firstElementIndex <= 0 ? 0 : 1;
         } catch (ParseException e){
             System.err.print("Incorrectly formated data");
@@ -66,24 +66,54 @@ public class CurrencyLine{
         LinkedList<DiagramPoint> points = new LinkedList<>();
 
         for(int i=firstElementIndex; i<=lastElementIndex;i++){
-            JsonElement jsonElement = jsonData.get(i);
-            String xValue = DateFormater.formatDate(jsonElement.getAsJsonObject().get(xAxisMemberName).getAsString());
-            Number yValue = jsonElement.getAsJsonObject().get(yAxisMemberName).getAsNumber();
-            DiagramPoint nextPoint = new DiagramPoint(xValue, yValue);
+            try {
+                JsonElement jsonElement = jsonData.get(i);
+                String xValue = DateFormater.formatDate(jsonElement.getAsJsonObject().get(xAxisMemberName).getAsString());
+                Number yValue = jsonElement.getAsJsonObject().get(yAxisMemberName).getAsNumber();
+                DiagramPoint nextPoint = new DiagramPoint(xValue, yValue);
 
-            points.add(0,nextPoint);
+                points.add(0,nextPoint);
+            } catch (IndexOutOfBoundsException e){
+                System.out.print("Index out of bound");
+            }
+
         }
         diagramPoints = points;
     }
-
+    public DiagramPoint getPointByDate(Date date){
+        try {
+            Integer index = 0;
+            String dateF = DateFormater.dateToString(date);
+            while(index<diagramPoints.size()){
+                DiagramPoint next = diagramPoints.get(index);
+                if(dateF.equals(next.x)) return next;
+                index++;
+            }
+        }catch(Exception e){
+            System.err.print("Incorrectly formated data");
+            e.printStackTrace();
+        }
+        return null;
+    }
     private int searchForDateIndex(String d) throws ParseException{
         int jsonLen = jsonData.size();
         Date userDate = DateFormater.stringToDate(d, "yyy-MM-dd");
         Date jsonDate = DateFormater.stringToDate(jsonData.get(jsonLen-1).getAsJsonObject().get("time").getAsString(), DATE_PATTERN);
 
-        if(userDate.before(jsonDate)) return jsonLen;
+        Integer position = binaryPointSearch(userDate);
+        if(position==null) {
+            if (userDate.before(jsonDate)) return jsonLen - 1;
+            jsonDate = DateFormater.stringToDate(jsonData.get(0).getAsJsonObject().get("time").getAsString(), DATE_PATTERN);
+            if (userDate.after(jsonDate)) return 0;
+        }
+        return position;
+    }
+    private Integer binaryPointSearch(Date userDate) throws ParseException{
+        int jsonLen = jsonData.size();
+        Date jsonDate = DateFormater.stringToDate(jsonData.get(jsonLen-1).getAsJsonObject().get("time").getAsString(), DATE_PATTERN);
+        if(userDate.before(jsonDate)) return null;
         jsonDate = DateFormater.stringToDate(jsonData.get(0).getAsJsonObject().get("time").getAsString(), DATE_PATTERN);
-        if(userDate.after(jsonDate)) return 0;
+        if(userDate.after(jsonDate)) return null;
 
         int left = 0;
         int right = jsonLen - 1;
