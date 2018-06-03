@@ -6,3 +6,7 @@ play clean stage
 play start
 play
 dist
+generateSecretKey
+playGenerateSecret
+sbt clean stage
+clean stage

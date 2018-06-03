@@ -67,7 +67,7 @@ Seq[Any](format.raw/*7.32*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Fri Jun 01 12:46:11 CEST 2018
+                  DATE: Sun Jun 03 16:18:29 CEST 2018
                   SOURCE: C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/app/views/main.scala.html
                   HASH: 81752c26727df86bbe3b1dd3fef22ad9ffc15fde
                   MATRIX: 1211->266|1336->296|1366->300|1449->408|1486->418|1694->689|1732->700|1760->707|1795->715

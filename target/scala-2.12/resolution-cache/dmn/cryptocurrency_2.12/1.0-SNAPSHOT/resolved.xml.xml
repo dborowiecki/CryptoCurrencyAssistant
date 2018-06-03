@@ -4,7 +4,7 @@
 		module="cryptocurrency_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180601135824"
+		publication="20180603161825"
 	>
 		<description>
 		CryptoCurrency
