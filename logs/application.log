@@ -100,7 +100,7 @@ Caused by: java.lang.NullPointerException: null
 
 ! @7869kdai8 - Internal server error, for (GET) [/?dateFrom=&dateTo=&showTrends=true] ->
  
-play.sbt.PlayExceptions$CompilationException: Compilation error[non-static method createPeriodTrendLine(models.Diagram.CurrencyLine,java.util.Date,java.util.Date) cannot be referenced from a static context]
+play.sbt.PlayExceptions$CompilationException: Compilation error[non-static method createPeriodTrendLine(services.Diagram.CurrencyLine,java.util.Date,java.util.Date) cannot be referenced from a static context]
 	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
 	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
 	at scala.Option.map(Option.scala:146)

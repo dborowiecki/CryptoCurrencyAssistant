@@ -1,4 +1,4 @@
-package models.Diagram;
+package services.Diagram;
 
 import java.util.Date;
 

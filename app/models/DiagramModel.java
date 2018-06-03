@@ -1,7 +1,8 @@
-package models.Diagram;
+package models;
 
 import services.DateFormater;
 import java.util.*;
+import services.Diagram.*;
 
 public class DiagramModel {
     public String title;

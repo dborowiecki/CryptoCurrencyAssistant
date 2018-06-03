@@ -1,4 +1,4 @@
-package models.Diagram;
+package services.Diagram;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

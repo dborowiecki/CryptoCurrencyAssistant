@@ -1,4 +1,4 @@
-package models.Diagram;
+package services.Diagram;
 
 public class DiagramPoint{
     public String x;

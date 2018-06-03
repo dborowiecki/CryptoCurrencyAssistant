@@ -1,2 +1,16 @@
-[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\models\DiagramModel.java:43:1: non-static method createPeriodTrendLine(models.CurrencyLine,java.util.Date,java.util.Date) cannot be referenced from a static context
-[error]             TrendLine newTrendLine = TrendLine.createPeriodTrendLine(currencyLine, dateFrom, dateTo);
+[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:1:1: not found: type DiagramModel
+[error] @(dateFrom: String, dateTo: String, showTrends: Int, diagram: DiagramModel, myForm : DynamicForm)
+[error] ^
+[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:1:63: not found: type DiagramModel
+[error] @(dateFrom: String, dateTo: String, showTrends: Int, diagram: DiagramModel, myForm : DynamicForm)
+[error]                                                               ^
+[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:4:9: object * is not a member of package models.Diagram
+[error] @import models.Diagram.*
+[error]         ^
+[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:5:49: not found: type TrendLine
+[error] @import java.util.Map; var currencyTrends: List[TrendLine] = null
+[error]                                                 ^
+[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\views\Diagram\diagram.scala.html:199:9: not found: type DiagramModel
+[error] </html>
+[error]        ^
+[error] 5 errors found

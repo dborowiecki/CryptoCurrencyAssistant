@@ -1,11 +1,11 @@
 package controllers;
 
-import models.Diagram.CurrencyLine;
-import models.Diagram.DiagramModel;
+import models.DiagramModel;
+import services.Diagram.*;
 import play.data.DynamicForm;
 import play.data.FormFactory;
 import play.mvc.*;
-import services.DateFormater;
+import services.*;
 import views.html.Diagram.*;
 
 import javax.inject.Inject;
