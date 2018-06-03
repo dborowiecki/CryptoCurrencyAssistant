@@ -7,10 +7,5 @@ GET     /                          controllers.HomeController.diagram()
 
 GET     /diagram                  controllers.HomeController.diagram()
 
-GET    /diagram/update             controllers.HomeController.update()
-
-GET    /diagram/fetchTest          controllers.HomeController.fetchTest()
-
-GET    /diagram/formTest        controllers.HomeController.formTest()
 # Map static resources from the /public folder to the /assets URL path
 GET     /*file               controllers.Assets.versioned(path="/public", file: Asset)

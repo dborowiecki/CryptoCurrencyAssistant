@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/conf/routes
-// @DATE:Sun Jun 03 01:26:58 CEST 2018
+// @DATE:Sun Jun 03 12:25:34 CEST 2018
 
 package router
 
@@ -16,7 +16,7 @@ class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
   // @LINE:6
   HomeController_0: controllers.HomeController,
-  // @LINE:16
+  // @LINE:11
   Assets_1: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -25,7 +25,7 @@ class Routes(
    def this(errorHandler: play.api.http.HttpErrorHandler,
     // @LINE:6
     HomeController_0: controllers.HomeController,
-    // @LINE:16
+    // @LINE:11
     Assets_1: controllers.Assets
   ) = this(errorHandler, HomeController_0, Assets_1, "/")
 
@@ -41,9 +41,6 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix, """controllers.HomeController.diagram()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """diagram""", """controllers.HomeController.diagram()"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """diagram/update""", """controllers.HomeController.update()"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """diagram/fetchTest""", """controllers.HomeController.fetchTest()"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """diagram/formTest""", """controllers.HomeController.formTest()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -88,65 +85,11 @@ class Routes(
     )
   )
 
-  // @LINE:10
-  private[this] lazy val controllers_HomeController_update2_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("diagram/update")))
-  )
-  private[this] lazy val controllers_HomeController_update2_invoker = createInvoker(
-    HomeController_0.update(),
-    play.api.routing.HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.HomeController",
-      "update",
-      Nil,
-      "GET",
-      this.prefix + """diagram/update""",
-      """""",
-      Seq()
-    )
-  )
-
-  // @LINE:12
-  private[this] lazy val controllers_HomeController_fetchTest3_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("diagram/fetchTest")))
-  )
-  private[this] lazy val controllers_HomeController_fetchTest3_invoker = createInvoker(
-    HomeController_0.fetchTest(),
-    play.api.routing.HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.HomeController",
-      "fetchTest",
-      Nil,
-      "GET",
-      this.prefix + """diagram/fetchTest""",
-      """""",
-      Seq()
-    )
-  )
-
-  // @LINE:14
-  private[this] lazy val controllers_HomeController_formTest4_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("diagram/formTest")))
-  )
-  private[this] lazy val controllers_HomeController_formTest4_invoker = createInvoker(
-    HomeController_0.formTest(),
-    play.api.routing.HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.HomeController",
-      "formTest",
-      Nil,
-      "GET",
-      this.prefix + """diagram/formTest""",
-      """""",
-      Seq()
-    )
-  )
-
-  // @LINE:16
-  private[this] lazy val controllers_Assets_versioned5_route = Route("GET",
+  // @LINE:11
+  private[this] lazy val controllers_Assets_versioned2_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned5_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned2_invoker = createInvoker(
     Assets_1.versioned(fakeValue[String], fakeValue[Asset]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -175,28 +118,10 @@ class Routes(
         controllers_HomeController_diagram1_invoker.call(HomeController_0.diagram())
       }
   
-    // @LINE:10
-    case controllers_HomeController_update2_route(params@_) =>
-      call { 
-        controllers_HomeController_update2_invoker.call(HomeController_0.update())
-      }
-  
-    // @LINE:12
-    case controllers_HomeController_fetchTest3_route(params@_) =>
-      call { 
-        controllers_HomeController_fetchTest3_invoker.call(HomeController_0.fetchTest())
-      }
-  
-    // @LINE:14
-    case controllers_HomeController_formTest4_route(params@_) =>
-      call { 
-        controllers_HomeController_formTest4_invoker.call(HomeController_0.formTest())
-      }
-  
-    // @LINE:16
-    case controllers_Assets_versioned5_route(params@_) =>
+    // @LINE:11
+    case controllers_Assets_versioned2_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned5_invoker.call(Assets_1.versioned(path, file))
+        controllers_Assets_versioned2_invoker.call(Assets_1.versioned(path, file))
       }
   }
 }
