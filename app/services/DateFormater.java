@@ -38,6 +38,7 @@ public class DateFormater {
             start.setTime(first);
             start.setTime(second);
 
+            datesBetween.add(first);
             while (first.before(second)) {
                 first = addDays(first, periodInDays);
                 datesBetween.add(first);

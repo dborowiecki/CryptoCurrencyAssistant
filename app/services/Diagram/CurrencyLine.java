@@ -32,7 +32,7 @@ public class CurrencyLine{
         }
     }
 
-    public static CurrencyLine createNewLine(String currency, String dateFrom, String dateTo){
+    public static CurrencyLine createNewLine(String currency, Date dateFrom, Date dateTo){
         CurrencyLine newLine = new CurrencyLine(currency);
         newLine.trimToPeriod(dateFrom, dateTo);
         newLine.createLineFromJson();
@@ -45,7 +45,7 @@ public class CurrencyLine{
         return newLine;
     }
 
-    public void trimToPeriod(String from, String to){
+    public void trimToPeriod(Date from, Date to){
         try {
             firstElementIndex = searchForDateIndex(to);
             lastElementIndex   = searchForDateIndex(from);
@@ -93,9 +93,9 @@ public class CurrencyLine{
         }
         return null;
     }
-    private int searchForDateIndex(String d) throws ParseException{
+    private int searchForDateIndex(Date d) throws ParseException{
         int jsonLen = jsonData.size();
-        Date userDate = DateFormater.stringToDate(d, "yyy-MM-dd");
+        Date userDate = d;
         Date jsonDate = DateFormater.stringToDate(jsonData.get(jsonLen-1).getAsJsonObject().get("time").getAsString(), DATE_PATTERN);
 
         Integer position = binaryPointSearch(userDate);

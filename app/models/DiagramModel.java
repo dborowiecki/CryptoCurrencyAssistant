@@ -1,7 +1,11 @@
 package models;
 
 import services.DateFormater;
+
+import java.awt.*;
 import java.util.*;
+import java.util.List;
+
 import services.Diagram.*;
 
 public class DiagramModel {
@@ -10,13 +14,21 @@ public class DiagramModel {
     public LinkedList<TrendLine> trendLines;
     public Map<String, List<TrendLine>> currencyTrends;
 
+    public LinkedList<CurrencyLine> getLines(){
+        return currencyLines;
+    }
     public DiagramModel(String title){
         this.title = title;
         currencyLines = new LinkedList<>();
         trendLines = new LinkedList<>();
         currencyTrends = new HashMap<>();
     }
-
+    public void addCurrencyInfo(String currency, Date dateFrom, Date dateTo, Color color){
+        CurrencyLine newLine;
+        newLine = CurrencyLine.createNewLine(currency, dateFrom, dateTo);
+        addCurrencyLine(newLine);
+        newLine.setColor(color.getRed(),color.getGreen(),color.getBlue());
+    }
     public void createCurrencyLine(String currency){
         currencyLines.add(CurrencyLine.createNewLine(currency));
     }
@@ -25,7 +37,7 @@ public class DiagramModel {
         l.setColor(r,g,b);
     }
 
-    public void createTrimmedLine(String currency, String dateFrom, String dateTo){
+    public void createTrimmedLine(String currency, Date dateFrom, Date dateTo){
         currencyLines.add(CurrencyLine.createNewLine(currency, dateFrom, dateTo));
     }
 
@@ -58,9 +70,6 @@ public class DiagramModel {
                 }
             }
             System.out.println(startDate+ "  "+endDate);
-    }
-    public LinkedList<CurrencyLine> getLines(){
-        return currencyLines;
     }
 }
 
