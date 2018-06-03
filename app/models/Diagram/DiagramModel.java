@@ -57,7 +57,6 @@ public class DiagramModel {
                 }
             }
             System.out.println(startDate+ "  "+endDate);
-        System.out.println("REZULTAT TWORZENIA TRENDLINE: "+currencyTrends);
     }
     public LinkedList<CurrencyLine> getLines(){
         return currencyLines;
