@@ -1,7 +1,7 @@
 @(dateFrom: String, dateTo: String, showTrends: Int, diagram: DiagramModel, myForm : DynamicForm)
 @import helper._;
 @import java.lang.String; val name="template"
-@import services.Diagram.*
+@import services.Diagram._
 @import java.util.Map; var currencyTrends: List[TrendLine] = null
 @diagramMin = { "2010-01-01" }
 @input = @{diagram.currencyLines}
