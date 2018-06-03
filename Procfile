@@ -1,1 +1,1 @@
-web: target/universal/scripts/bin/hello
+web: target/universal/scripts/bin/cryptocurrency
