@@ -504,3 +504,11 @@ play.sbt.PlayExceptions$CompilationException: Compilation error[value formTest i
     play.filters.hosts.AllowedHostsFilter
 
 2018-06-03 12:25:53,215 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-134 - Application started (Dev)
+2018-06-03 12:40:13,728 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-146 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-06-03 12:40:13,851 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-146 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-06-03 12:40:13,851 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-146 - Application started (Dev)
