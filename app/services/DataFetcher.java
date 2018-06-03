@@ -8,7 +8,6 @@ import java.util.Date;
 
 public class DataFetcher {
     private URL url;
-    //private HashMap<String, String> pathComponents;
     JsonArray fetchedJsonData;
     String fetchedStringData;
 

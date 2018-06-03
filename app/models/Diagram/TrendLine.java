@@ -1,32 +1,34 @@
-package models;
-
-import akka.http.impl.engine.parsing.NotEnoughDataException;
-import services.DateFormater;
+package models.Diagram;
 
 import java.util.Date;
 
 public class TrendLine {
-    public CurrencyLine currencyLine;
+    private CurrencyLine currencyLine;
     public DiagramPoint startPoint;
     public DiagramPoint endingPoint;
-    public DiagramPoint[] extrema = new DiagramPoint[2];
-    public String trending;
+    private DiagramPoint[] extrema = new DiagramPoint[2];
     public String color = "rgba(255, 0, 0, 1)";
 
-    public TrendLine(CurrencyLine line, Date dateStart, Date dateEnd){
+    public static TrendLine createPeriodTrendLine(CurrencyLine line, Date dateStart, Date dateEnd) throws TrendLineException{
+        TrendLine newLine = new TrendLine(line, dateStart, dateEnd);
+
+        return newLine;
+    }
+
+    private TrendLine(CurrencyLine line, Date dateStart, Date dateEnd) throws TrendLineException{
         this.currencyLine = line;
 
         coutTrending(dateStart, dateEnd);
+        if(!valdate()) throw new TrendLineException();
     }
 
-    public void coutTrending(Date startDate, Date endDate){
+    private void coutTrending(Date startDate, Date endDate){
         DiagramPoint endingPoint;
         DiagramPoint startingPoint;
         DiagramPoint  lineStart;
         DiagramPoint  lineEnd;
 
         try {
-            System.out.println("START DATE: "+startDate+" Ending: "+endDate);
 
             endingPoint   = currencyLine.getPointByDate(endDate);
             startingPoint = currencyLine.getPointByDate(startDate);
@@ -44,14 +46,9 @@ public class TrendLine {
 
         } catch (TrendLineException e){
             System.err.println("Couldn't add new trend line, not enough data");
-            return;
         } catch (NullPointerException n){
             System.err.println("One of dates not found in diagram");
         }
-        //System.out.println("INDEKSY: "+currencyLine.diagramPoints.indexOf(lineStart)+"  "+currencyLine.diagramPoints.indexOf(lineEnd));
-        //Połączyć
-
-        //Policzyć wartość dla punktu początkowego i końcowego
     }
 
 
@@ -120,14 +117,13 @@ public class TrendLine {
 
         startPoint  = new DiagramPoint(lineStart.x, lineStart.y.doubleValue()-(distanceX1*deltaY));
         endingPoint = new DiagramPoint(lineEnd.x, lineEnd.y.doubleValue()+lineLen*deltaY);
-        /*System.out.println( "Extrema delta: "+extremaDeltaX
-                            +" Factor: "+functionFactor
-                            +" Added value:"+functionAddValue
-        );*/
     }
 
-
-    class TrendLineException extends Exception{
+    private boolean valdate(){
+        if(startPoint == null || endingPoint == null) return false;
+        return true;
+    }
+    public class TrendLineException extends Exception{
         public TrendLineException() {
             super("Data for creating trend line is insufficient");
         }

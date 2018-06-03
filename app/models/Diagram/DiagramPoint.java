@@ -1,6 +1,4 @@
-package models;
-
-import java.awt.*;
+package models.Diagram;
 
 public class DiagramPoint{
     public String x;

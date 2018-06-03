@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/conf/routes
-// @DATE:Fri Jun 01 13:51:01 CEST 2018
+// @DATE:Sun Jun 03 01:26:58 CEST 2018
 
 import play.api.mvc.Call
 
@@ -18,16 +18,18 @@ package controllers {
     }
 
   
-    // @LINE:14
-    def formTest(): Call = {
+    // @LINE:6
+    def diagram(): Call = {
+    
+      () match {
       
-      Call("GET", _prefix + { _defaultPrefix } + "diagram/formTest")
-    }
-  
-    // @LINE:10
-    def update(): Call = {
+        // @LINE:6
+        case ()  =>
+          
+          Call("GET", _prefix)
       
-      Call("GET", _prefix + { _defaultPrefix } + "diagram/update")
+      }
+    
     }
   
     // @LINE:12
@@ -36,16 +38,16 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "diagram/fetchTest")
     }
   
-    // @LINE:8
-    def diagram(): Call = {
+    // @LINE:10
+    def update(): Call = {
       
-      Call("GET", _prefix + { _defaultPrefix } + "diagram/")
+      Call("GET", _prefix + { _defaultPrefix } + "diagram/update")
     }
   
-    // @LINE:6
-    def index(): Call = {
+    // @LINE:14
+    def formTest(): Call = {
       
-      Call("GET", _prefix)
+      Call("GET", _prefix + { _defaultPrefix } + "diagram/formTest")
     }
   
   }

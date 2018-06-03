@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/conf/routes
-// @DATE:Fri Jun 01 13:51:01 CEST 2018
+// @DATE:Sun Jun 03 01:26:58 CEST 2018
 
 package controllers;
 

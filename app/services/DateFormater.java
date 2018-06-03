@@ -1,13 +1,12 @@
 package services;
 
-import org.joda.time.Days;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class DateFormater {
-    public static String formatDate(String unformatedData){
+    public static String formatJsonDate(String unformatedData){
         try {
             Date date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(unformatedData);
             return new SimpleDateFormat("dd/MM/yyyy").format(date);
@@ -34,8 +33,7 @@ public class DateFormater {
         try {
             Date first  = stringToDate(dateStart, "dd/MM/yyyy");
             Date second = stringToDate(dateEnd, "dd/MM/yyyy");
-            Calendar start = new GregorianCalendar();// whatever
-            Calendar end   = new GregorianCalendar();// whatever
+            Calendar start = new GregorianCalendar();
 
             start.setTime(first);
             start.setTime(second);
@@ -56,7 +54,7 @@ public class DateFormater {
     {
         Calendar cal = Calendar.getInstance();
         cal.setTime(date);
-        cal.add(Calendar.DATE, days); //minus number would decrement the days
+        cal.add(Calendar.DATE, days);
         return cal.getTime();
     }
     public static Date getCurrentDate(){

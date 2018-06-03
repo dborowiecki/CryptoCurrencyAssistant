@@ -1,4 +1,4 @@
-package models;
+package models.Diagram;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -10,15 +10,15 @@ import java.util.Date;
 import java.util.LinkedList;
 
 public class CurrencyLine{
+    public static final String DATE_PATTERN = "yyy-MM-dd HH:mm:ss";
+    public LinkedList<DiagramPoint> diagramPoints;
+    public String currencyName;
+    public String color = "rgba(255, 0, 0, 1)";
     private JsonArray jsonData;
     private int firstElementIndex;
     private int lastElementIndex;
     private final String xAxisMemberName = "time";
     private final String yAxisMemberName = "average";
-    public static final String DATE_PATTERN = "yyy-MM-dd HH:mm:ss";
-    public LinkedList<DiagramPoint> diagramPoints;
-    public String currencyName;
-    public String color = "rgba(255, 0, 0, 1)";
 
     public CurrencyLine(String currency){
         try {
@@ -48,9 +48,7 @@ public class CurrencyLine{
     public void trimToPeriod(String from, String to){
         try {
             firstElementIndex = searchForDateIndex(to);
-           // firstElementIndex -= firstElementIndex <= 0 ? 0 : 1;
             lastElementIndex   = searchForDateIndex(from);
-          //  firstElementIndex += firstElementIndex <= 0 ? 0 : 1;
         } catch (ParseException e){
             System.err.print("Incorrectly formated data");
             e.printStackTrace();
@@ -68,7 +66,7 @@ public class CurrencyLine{
         for(int i=firstElementIndex; i<=lastElementIndex;i++){
             try {
                 JsonElement jsonElement = jsonData.get(i);
-                String xValue = DateFormater.formatDate(jsonElement.getAsJsonObject().get(xAxisMemberName).getAsString());
+                String xValue = DateFormater.formatJsonDate(jsonElement.getAsJsonObject().get(xAxisMemberName).getAsString());
                 Number yValue = jsonElement.getAsJsonObject().get(yAxisMemberName).getAsNumber();
                 DiagramPoint nextPoint = new DiagramPoint(xValue, yValue);
 

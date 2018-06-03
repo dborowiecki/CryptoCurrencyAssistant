@@ -1,2 +1,2 @@
-[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\controllers\HomeController.java:40:1:  java.lang.String cannot be converted to java.lang.Boolean
-[error]         Boolean showTrends = requestData.get("showTrends");
+[error] C:\Users\Damian\Desktop\Studia\IV SEMESTR\Praktyki\Kainos\testy\project\cryptocurrency\app\models\DiagramModel.java:43:1: non-static method createPeriodTrendLine(models.CurrencyLine,java.util.Date,java.util.Date) cannot be referenced from a static context
+[error]             TrendLine newTrendLine = TrendLine.createPeriodTrendLine(currencyLine, dateFrom, dateTo);

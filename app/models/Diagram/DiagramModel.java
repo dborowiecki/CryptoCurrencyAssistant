@@ -1,8 +1,6 @@
-package models;
+package models.Diagram;
 
 import services.DateFormater;
-
-import java.text.ParseException;
 import java.util.*;
 
 public class DiagramModel {
@@ -10,8 +8,6 @@ public class DiagramModel {
     public LinkedList<CurrencyLine> currencyLines;
     public LinkedList<TrendLine> trendLines;
     public Map<String, List<TrendLine>> currencyTrends;
-    public String dateStart;
-    public String dateEnd;
 
     public DiagramModel(String title){
         this.title = title;
@@ -22,7 +18,6 @@ public class DiagramModel {
 
     public void createCurrencyLine(String currency){
         currencyLines.add(CurrencyLine.createNewLine(currency));
-        //currencyTrends.put(currency, new LinkedList<>());
     }
 
     public void changeLineColor(CurrencyLine l,int r, int g, int b){
@@ -39,14 +34,14 @@ public class DiagramModel {
     }
 
     private void addTrendLine(CurrencyLine currencyLine, Date dateFrom, Date dateTo){
-            TrendLine newTrendLine = new TrendLine(currencyLine, dateFrom, dateTo);
-            System.out.println(
-                             "DATE FROM: "+dateFrom
-                            +"DATE TO: "+dateTo
-                            +"NOWA LINIA" + newTrendLine
-            );
+        try {
+            TrendLine newTrendLine = TrendLine.createPeriodTrendLine(currencyLine, dateFrom, dateTo);
             trendLines.add(newTrendLine);
             currencyTrends.get(currencyLine.currencyName).add(newTrendLine);
+        } catch(Exception e){
+            return;
+        }
+
     }
 
     public void createWeeklyTrendLines(CurrencyLine line){
@@ -55,8 +50,6 @@ public class DiagramModel {
         String endDate = line.diagramPoints.get(line.diagramPoints.size()-1).x;
         List<Date> periods = DateFormater.divideDateByPeriod(startDate, endDate, 8);
             for (int i = 0; i < periods.size() - 1;i++) {
-               // String start = DateFormater.dateToString(periods.get(i), "dd/MM/yyyy");
-               // String end   = DateFormater.dateToString(periods.get(i+1), "dd/MM/yyyy");
                 try {
                     addTrendLine(line, periods.get(i), periods.get(i + 1));
                 }catch (Exception e){

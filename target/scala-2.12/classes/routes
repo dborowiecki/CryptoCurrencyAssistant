@@ -3,9 +3,9 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                          controllers.HomeController.index
+GET     /                          controllers.HomeController.diagram()
 
-GET     /diagram/                  controllers.HomeController.diagram()
+GET     /diagram                  controllers.HomeController.diagram()
 
 GET    /diagram/update             controllers.HomeController.update()
 

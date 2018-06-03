@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/conf/routes
-// @DATE:Fri Jun 01 13:51:01 CEST 2018
+// @DATE:Sun Jun 03 01:26:58 CEST 2018
 
 package router
 
@@ -39,8 +39,8 @@ class Routes(
   }
 
   def documentation = List(
-    ("""GET""", this.prefix, """controllers.HomeController.index"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """diagram/""", """controllers.HomeController.diagram()"""),
+    ("""GET""", this.prefix, """controllers.HomeController.diagram()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """diagram""", """controllers.HomeController.diagram()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """diagram/update""", """controllers.HomeController.update()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """diagram/fetchTest""", """controllers.HomeController.fetchTest()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """diagram/formTest""", """controllers.HomeController.formTest()"""),
@@ -53,15 +53,15 @@ class Routes(
 
 
   // @LINE:6
-  private[this] lazy val controllers_HomeController_index0_route = Route("GET",
+  private[this] lazy val controllers_HomeController_diagram0_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix)))
   )
-  private[this] lazy val controllers_HomeController_index0_invoker = createInvoker(
-    HomeController_0.index,
+  private[this] lazy val controllers_HomeController_diagram0_invoker = createInvoker(
+    HomeController_0.diagram(),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.HomeController",
-      "index",
+      "diagram",
       Nil,
       "GET",
       this.prefix + """""",
@@ -72,7 +72,7 @@ class Routes(
 
   // @LINE:8
   private[this] lazy val controllers_HomeController_diagram1_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("diagram/")))
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("diagram")))
   )
   private[this] lazy val controllers_HomeController_diagram1_invoker = createInvoker(
     HomeController_0.diagram(),
@@ -82,7 +82,7 @@ class Routes(
       "diagram",
       Nil,
       "GET",
-      this.prefix + """diagram/""",
+      this.prefix + """diagram""",
       """""",
       Seq()
     )
@@ -164,9 +164,9 @@ class Routes(
   def routes: PartialFunction[RequestHeader, Handler] = {
   
     // @LINE:6
-    case controllers_HomeController_index0_route(params@_) =>
+    case controllers_HomeController_diagram0_route(params@_) =>
       call { 
-        controllers_HomeController_index0_invoker.call(HomeController_0.index)
+        controllers_HomeController_diagram0_invoker.call(HomeController_0.diagram())
       }
   
     // @LINE:8

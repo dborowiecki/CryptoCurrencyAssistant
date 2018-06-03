@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Damian/Desktop/Studia/IV SEMESTR/Praktyki/Kainos/testy/project/cryptocurrency/conf/routes
-// @DATE:Fri Jun 01 13:51:01 CEST 2018
+// @DATE:Sun Jun 03 01:26:58 CEST 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -19,22 +19,16 @@ package controllers.javascript {
     }
 
   
-    // @LINE:14
-    def formTest: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.formTest",
+    // @LINE:6
+    def diagram: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.diagram",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "diagram/formTest"})
-        }
-      """
-    )
-  
-    // @LINE:10
-    def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.update",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "diagram/update"})
+        
+          if (true) {
+            return _wA({method:"GET", url:"""" + _prefix + """"})
+          }
+        
         }
       """
     )
@@ -49,22 +43,22 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:8
-    def diagram: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.diagram",
+    // @LINE:10
+    def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.update",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "diagram/"})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "diagram/update"})
         }
       """
     )
   
-    // @LINE:6
-    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.index",
+    // @LINE:14
+    def formTest: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.formTest",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + """"})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "diagram/formTest"})
         }
       """
     )
