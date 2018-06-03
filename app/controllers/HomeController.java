@@ -68,22 +68,4 @@ public class HomeController extends Controller {
     public Result update(){
         return TODO;
     }
-
-    public Result fetchTest(){
-        DiagramModel d = new DiagramModel("Cryptocurrency");
-        d.createCurrencyLine("BTCUSD");
-        d.createCurrencyLine("ETHUSD");
-        d.createCurrencyLine("LTCUSD");
-        CurrencyLine test = d.getLines().get(0);//new CurrencyLine("BTCUSD");
-
-        return ok(fetcher.render(d.getLines()));
-
-    }
-
-    public Result formTest(){
-        DynamicForm period = formFactory.form();
-        period.bindFromRequest("dateFrom", "dateTo", "showTrends");
-        return ok(formTest.render(period));
-
-    }
 }
