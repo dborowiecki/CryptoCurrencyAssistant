@@ -1,2 +1,8 @@
 playVersion
 console
+play clean stage
+play clean compile stage
+play clean stage
+play start
+play
+dist

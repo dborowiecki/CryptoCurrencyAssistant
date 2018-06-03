@@ -1,0 +1,1 @@
+web: target/universal/scripts/bin/hello
